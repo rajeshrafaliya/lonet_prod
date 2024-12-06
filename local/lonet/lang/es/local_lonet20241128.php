@@ -42,7 +42,7 @@ $string['teacher'] = 'Teacher';
 $string['learner'] = 'Estudiante';
 $string['learners'] = 'Learners';
 
-/* ***********  E-mail templates ************ */
+/* *********** E-mail templates ************ */
 $string['email_confirmdeletion_subject'] = 'Confirm account deletion on {$a->sitename}';
 $string['email_confirmdeletion_html'] = '<p>Dear {$a->fullname},</p>
 <br>
