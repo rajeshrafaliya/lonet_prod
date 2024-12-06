@@ -1,0 +1,662 @@
+DateInterval Object
+(
+    [y] => 0
+    [m] => 1
+    [d] => 5
+    [h] => 0
+    [i] => 46
+    [s] => 1
+    [weekday] => 0
+    [weekday_behavior] => 0
+    [first_last_day_of] => 0
+    [invert] => 1
+    [days] => 36
+    [special_type] => 0
+    [special_amount] => 0
+    [have_weekday_relative] => 0
+    [have_special_relative] => 0
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.8707.1361 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 39640
+    [REMOTE_ADDR] => 110.249.202.28
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=426&lang=en
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=426&lang=en
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485338.6575
+    [REQUEST_TIME] => 1575485338
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.8707.1361 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 39640
+    [REMOTE_ADDR] => 110.249.202.28
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=426&lang=en
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=426&lang=en
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485338.6575
+    [REQUEST_TIME] => 1575485338
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.8707.1361 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 39640
+    [REMOTE_ADDR] => 110.249.202.28
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=426&lang=en
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=426&lang=en
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485338.6575
+    [REQUEST_TIME] => 1575485338
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.8707.1361 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 39640
+    [REMOTE_ADDR] => 110.249.202.28
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=426&lang=en
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=426&lang=en
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485338.6575
+    [REQUEST_TIME] => 1575485338
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.8890.1971 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 55306
+    [REMOTE_ADDR] => 111.225.149.239
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=73&lang=en
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=73&lang=en
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485368.1341
+    [REQUEST_TIME] => 1575485368
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.8890.1971 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 55306
+    [REMOTE_ADDR] => 111.225.149.239
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=73&lang=en
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=73&lang=en
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485368.1341
+    [REQUEST_TIME] => 1575485368
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.8890.1971 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 55306
+    [REMOTE_ADDR] => 111.225.149.239
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=73&lang=en
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=73&lang=en
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485368.1341
+    [REQUEST_TIME] => 1575485368
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.8890.1971 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 55306
+    [REMOTE_ADDR] => 111.225.149.239
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=73&lang=en
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=73&lang=en
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485368.1341
+    [REQUEST_TIME] => 1575485368
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_COOKIE] => OptanonConsent=landingPath=https%3A%2F%2Flonet.academy%2Flogin%2Findex.php%3Fsesskey%3DiuJiz3K76VPiesl%25C4%2593gties&datestamp=Thu+Dec+05+2019+02%3A38%3A42+GMT%2B0800+(China+Standard+Time)&version=3.6.22&groups=1%3A1%2C3%3A1%2C4%3A1%2C0_37842%3A1%2C0_38511%3A1%2C0_38510%3A1%2C0_38512%3A1%2C0_38507%3A1%2C0_38506%3A1%2C0_38509%3A1%2C0_38508%3A1%2C101%3A1%2C102%3A1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2809.1277 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 48254
+    [REMOTE_ADDR] => 111.225.148.12
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=334&lang=lv
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=334&lang=lv
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485406.3947
+    [REQUEST_TIME] => 1575485406
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_COOKIE] => OptanonConsent=landingPath=https%3A%2F%2Flonet.academy%2Flogin%2Findex.php%3Fsesskey%3DiuJiz3K76VPiesl%25C4%2593gties&datestamp=Thu+Dec+05+2019+02%3A38%3A42+GMT%2B0800+(China+Standard+Time)&version=3.6.22&groups=1%3A1%2C3%3A1%2C4%3A1%2C0_37842%3A1%2C0_38511%3A1%2C0_38510%3A1%2C0_38512%3A1%2C0_38507%3A1%2C0_38506%3A1%2C0_38509%3A1%2C0_38508%3A1%2C101%3A1%2C102%3A1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2809.1277 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 48254
+    [REMOTE_ADDR] => 111.225.148.12
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=334&lang=lv
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=334&lang=lv
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485406.3947
+    [REQUEST_TIME] => 1575485406
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_COOKIE] => OptanonConsent=landingPath=https%3A%2F%2Flonet.academy%2Flogin%2Findex.php%3Fsesskey%3DiuJiz3K76VPiesl%25C4%2593gties&datestamp=Thu+Dec+05+2019+02%3A38%3A42+GMT%2B0800+(China+Standard+Time)&version=3.6.22&groups=1%3A1%2C3%3A1%2C4%3A1%2C0_37842%3A1%2C0_38511%3A1%2C0_38510%3A1%2C0_38512%3A1%2C0_38507%3A1%2C0_38506%3A1%2C0_38509%3A1%2C0_38508%3A1%2C101%3A1%2C102%3A1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2809.1277 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 48254
+    [REMOTE_ADDR] => 111.225.148.12
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=334&lang=lv
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=334&lang=lv
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485406.3947
+    [REQUEST_TIME] => 1575485406
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_COOKIE] => OptanonConsent=landingPath=https%3A%2F%2Flonet.academy%2Flogin%2Findex.php%3Fsesskey%3DiuJiz3K76VPiesl%25C4%2593gties&datestamp=Thu+Dec+05+2019+02%3A38%3A42+GMT%2B0800+(China+Standard+Time)&version=3.6.22&groups=1%3A1%2C3%3A1%2C4%3A1%2C0_37842%3A1%2C0_38511%3A1%2C0_38510%3A1%2C0_38512%3A1%2C0_38507%3A1%2C0_38506%3A1%2C0_38509%3A1%2C0_38508%3A1%2C101%3A1%2C102%3A1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2809.1277 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 48254
+    [REMOTE_ADDR] => 111.225.148.12
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=334&lang=lv
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=334&lang=lv
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485406.3947
+    [REQUEST_TIME] => 1575485406
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2487.1860 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 22900
+    [REMOTE_ADDR] => 110.249.201.113
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=233
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=233
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485443.9434
+    [REQUEST_TIME] => 1575485443
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2487.1860 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 22900
+    [REMOTE_ADDR] => 110.249.201.113
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=233
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=233
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485443.9434
+    [REQUEST_TIME] => 1575485443
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2487.1860 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 22900
+    [REMOTE_ADDR] => 110.249.201.113
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=233
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=233
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485443.9434
+    [REQUEST_TIME] => 1575485443
+)
+Array
+(
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [TEMP] => /var/www/clients/client0/web1/tmp
+    [TMPDIR] => /var/www/clients/client0/web1/tmp
+    [TMP] => /var/www/clients/client0/web1/tmp
+    [HOSTNAME] => 
+    [USER] => web1
+    [HOME] => /var/www/clients/client0/web1
+    [HTTP_PROXY_AUTHORIZATION] => Basic c2VhcmNoX3NwaWRlcjpmazN3ZDhGUDljaWI=
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2487.1860 Mobile Safari/537.36; Bytespider;https://zhanzhang.toutiao.com/
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_HOST] => lonet.academy
+    [SCRIPT_FILENAME] => /var/www/lonet.academy/web/moodle/user/profile.php
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => lonet.academy
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 212.70.189.24
+    [REMOTE_PORT] => 22900
+    [REMOTE_ADDR] => 110.249.201.113
+    [SERVER_SOFTWARE] => nginx/1.17.3
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /var/www/lonet.academy/web/moodle
+    [DOCUMENT_URI] => /user/profile.php
+    [REQUEST_URI] => /user/profile.php?id=233
+    [SCRIPT_NAME] => /user/profile.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => id=233
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /user/profile.php
+    [REQUEST_TIME_FLOAT] => 1575485443.9434
+    [REQUEST_TIME] => 1575485443
+)

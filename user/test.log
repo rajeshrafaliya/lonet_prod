@@ -1,0 +1,24 @@
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Rosa Hernandez",
+  "image": "https://lonet.academy/user/pix.php/35/f1.jpg",
+  "description": "I am a spanish/english  teacher as a second language with almost 20 years of experience . I combine two teaching methods , one that is practical and easy to start speaking effectively , and another based on grammar and easy exercises to complement the process.Starting with the basic tenses and mixing with vocabulary and conversation, adjusted to the student´s needs .I love being able to be part of the learning process and eager to help to develope your knowledge in language , so important nowadays in the globalized world.Spanish is a beautiful language and will open a world of opportunities and a great culture into your life.English is necessary and extremely easy to learn , you will just love it as I do.I have a bubbly personality, a lot of patience and dedication so succes is guaranted.",
+  "brand": "Lonet Academy",
+
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://lonet.academy/user/profile.php?id=35&lang=ru",
+    "priceCurrency": "EUR",
+    "lowPrice": "8",
+    "highPrice": "13",
+    "offerCount": "4"
+  },
+        
+
+
+}
+</script>
+                        

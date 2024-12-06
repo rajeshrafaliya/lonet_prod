@@ -1,0 +1,311 @@
+<?php $string['choosereadme'] = '
+ <div class="clearfix"> <div class="well"> <h2>Lonet</h2> <p><img class=img-polaroid src="lonet/pix/screenshot.jpg" /></p> </div> <div class="well"> <h3>About</h3> <p>lonet is a educational and corporate theme</p> <h3>Customization</h3> <p>If you need more customization you can contact with us. Our email id is <a href="mailto:cmsbrand93@gmail.com">cmsbrand93@gmail.com</a></p> <h3>Theme Credits</h3> <p>CmsBrand</p> <h3>Report a bug:</h3> <p><a href="mailto:cmsbrand93@gmail.com">cmsbrand93@gmail.com</p> </div></div>';
+$string['configtitle'] = 'lonet';
+$string['pluginname'] = 'Lonet';
+$string['region-side-post'] = 'Right';
+$string['region-side-pre'] = 'Left';
+$string['generalsettings'] = 'General Settings';
+$string['featuredcourses'] = 'Featured Courses';
+$string['frontpagesettings'] = 'Front Page Settings';
+$string['servicesboxsettings'] = 'Services Box Settings';
+$string['aboutussettings'] = 'About Us Settings';
+$string['photogallerysettings'] = 'Photo Gallery Settings';
+$string['footersettings'] = 'Footer Settings';
+
+/* General Settings */
+
+$string['favicon'] = 'Favicon';
+$string['favicondesc'] = 'Upload your Favicon here.<br /> Image works best with 16px/16px size';
+$string['logo'] = 'Logo';
+$string['logodesc'] = 'The logo is only displayed in the header of the front page and login page.<br /> If the height of your logo is more than 75px add div.logo {height: 100px;} to the Custom CSS box below, amending accordingly if the height is other than 100px.';
+$string['sitelogo'] = 'Site logo';
+$string['sitename'] = 'Display site name along with small logo';
+$string['sitenamedesc'] = 'If there is no small logo, the site name is always displayed in the navigation bar. If a small logo is set, it may be displayed with or without the site name.';
+$string['smalllogo'] = 'Small logo';
+$string['smalllogodesc'] = 'The small logo is displayed in the navigation bar. If there is a header logo for the front page and login page, the small logo is not displayed on these pages.';
+$string['email'] = 'E-mail Id';
+$string['emaildesc'] = 'Enter E-mail Id';
+$string['timing'] = 'Day with Timing';
+$string['timingdesc'] = 'Enter Day with Timing';
+$string['facebook'] = 'Facebook URL';
+$string['facebookdesc'] = 'Enter the URL of your Facebook.';
+$string['googleplus'] = 'Googleplus URL';
+$string['googleplusdesc'] = 'Enter the URL of your Googleplus.';
+$string['twitter'] = 'Twitter URL';
+$string['twitterdesc'] = 'Enter the URL of your Twitter.';
+$string['loginbackground'] = 'Login Background Image';
+$string['loginbackgrounddesc'] = 'Upload Login Background Image.<br />Image works best with 3756px × 1991px size';
+$string['innerbanner'] = 'Internal Banner Image';
+$string['innerbannerdesc'] = 'Upload Internal Banner Image.<br />Image works best with 1500px × 323px size';
+$string['innerbannerheading'] = 'Internal Banner Heading';
+$string['innerbannerheadingdesc'] = 'Enter Internal Banner Heading Text';
+$string['innerbannertagline'] = 'Internal Banner Tagline';
+$string['innerbannertaglinedesc'] = 'Enter Internal Banner Tagline Text.For Example. &lt;p&gt;&lt;span&gt;ONE HOME PAGE &lt;span&gt; + &lt;/span&gt; UNLIMITED COLOR VARIATION &lt;span&gt; + &lt;/span&gt; AWESOME LAYERS PAGE BUILDER &lt;span&gt; + &lt;/span&gt; EASY TO CUSTOMIZE &lt;span&gt; + &lt;/span&gt; FULLY RESPONSIVE &lt;/p&gt;&lt;/span&gt;.';
+$string['announcementsbg'] = 'Announcements Background Image';
+$string['announcementsbgdesc'] = 'Upload Announcements Background Image.<br />Image works best with 3500px ×1200px size';
+$string['sitebluecolor'] = 'Site Blue Color';
+$string['sitebluecolordesc'] = 'This allow you to set the Site Blue Color';
+$string['sitegreencolor'] = 'Site Green Color';
+$string['sitegreencolordesc'] = 'This allow you to set the Site Green Color';
+$string['salmoncolor'] = 'Salmon Color';
+$string['salmoncolordesc'] = 'This allow you to set the Salmon Color';
+$string['orangecolor'] = 'Orange Color';
+$string['orangecolordesc'] = 'This allow you to set the Orange Color';
+$string['cyancolor'] = 'Cyan Color';
+$string['cyancolordesc'] = 'This allow you to set the Cyan Color';
+$string['skybluecolor'] = 'Sky Blue Color';
+$string['skybluecolordesc'] = 'This allow you to set the Sky Blue Color';
+$string['blockcustombutton'] = 'Block Custom Button';
+$string['blockcustombuttondesc'] = 'Enter Block Custom Button Text';
+$string['blockcustombuttonurl'] = 'Block Custom Button URL';
+$string['blockcustombuttonurldesc'] = 'Enter Block Custom Button URL';
+$string['blockheading'] = 'Block Heading';
+$string['blockheadingdesc'] = 'Enter Block Heading';
+$string['blocktagline'] = 'Block Tagline';
+$string['blocktaglinedesc'] = 'Enter Block Tagline Text';
+$string['customcss'] = 'Custom CSS';
+$string['customcssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
+
+/* Featured Courses Settings*/
+$string['displayfeaturedcourse'] = 'Display Featured Courses Section';
+$string['displayfeaturedcoursedesc'] = 'Show or Hide Your Featured Courses Section';
+for ($i = 1; $i <= 12; $i++) {
+    $string['course' . $i . 'ShowHide'] = 'Show or hide course #' . $i;
+    $string['course' . $i . 'title'] = 'Course #' . $i . ': Title';
+    $string['course' . $i . 'titledesc'] = 'Enter course #' . $i . ' title';
+    $string['course' . $i . 'image'] = 'Course #' . $i . ': Image';
+    $string['course' . $i . 'imagedesc'] = 'Image works best if(Image size should be 110px x 110px)';
+    $string['course' . $i . 'caption'] = 'Course #' . $i . ': Description';
+    $string['course' . $i . 'captiondesc'] = 'Enter course #' . $i . ' description';
+    $string['course' . $i . 'buttontext'] = 'Course #' . $i . ': Button Text';
+    $string['course' . $i . 'buttontextdesc'] = 'Enter course #' . $i . ' button text';
+    $string['course' . $i . 'url'] = 'Course #' . $i . ': Url';
+    $string['course' . $i . 'urldesc'] = 'Enter course #' . $i . ' url';
+}
+$string['courseShowHidedesc'] = 'Show or hide course';
+
+/* Frontpage Settings */
+$string['banner1image'] = 'Banner Image';
+$string['banner1heading'] = 'Banner Heading';
+$string['banner1imagedesc'] = 'Upload Banner Image.<br />Image works best with 1500px × 470px size';
+$string['banner1headingdesc'] = 'Enter Banner Heading';
+
+/* Service Box Settings */
+$string['displayservicesbox'] = 'Display Services Box';
+$string['displayservicesboxdesc'] = 'Show or Hide Your Front Page Services Box';
+$string['servicesboximage'] = 'Services Section Background Image';
+$string['servicesboximagedesc'] = 'Upload Services Section Background Image.<br />Image works best with 1500px × 381px size';
+$string['servicesheading'] = 'Services Heading';
+$string['servicesheadingdesc'] = 'Enter Services Heading';
+$string['servicestagline'] = 'Services Tagline';
+$string['servicestaglinedesc'] = 'Enter Services Tagline';
+for ($i = 1; $i <= 4; $i++) {
+    $string['servicesbox' . $i . 'icon'] = 'Services Box #' . $i . ' Icon';
+    $string['servicesbox' . $i . 'icondesc'] = 'Icon works best with 90px x 90px size';
+    $string['servicesbox' . $i . 'heading'] = 'Services Box #' . $i . ' Heading';
+    $string['servicesbox' . $i . 'headingdesc'] = 'Enter Services Box #' . $i . ' Heading';
+    $string['servicesbox' . $i . 'content'] = 'Services Box #' . $i . ' Content';
+    $string['servicesbox' . $i . 'contentdesc'] = 'Enter Services Box #' . $i . ' Content';
+    $string['servicesbox' . $i . 'url'] = 'Services Box #' . $i . ' URL';
+    $string['servicesbox' . $i . 'urldesc'] = 'Enter Services Box #' . $i . ' URL';
+}
+
+/* About Us Settings*/
+$string['displayaboutus'] = 'Display About Us Section';
+$string['displayaboutusdesc'] = 'Show or Hide Your Front Page About Us Section';
+$string['aboutusheading'] = 'About Us Heading';
+$string['aboutusheadingdesc'] = 'Enter About Us Heading';
+$string['aboutustagline'] = 'About Us Tagline';
+$string['aboutustaglinedesc'] = 'Enter About Us Tagline';
+for ($i = 1; $i <= 4; $i++) {
+    $string['aboutus' . $i . 'url'] = 'About Us #' . $i . ' URL';
+    $string['aboutus' . $i . 'urldesc'] = 'Enter About Us #' . $i . ' URL';
+    $string['aboutus' . $i . 'image'] = 'About Us #' . $i . ' image';
+    $string['aboutus' . $i . 'imagedesc'] = 'Icon works best with 80px x 80px size';
+    $string['aboutus' . $i . 'heading'] = 'About Us #' . $i . ' Heading';
+    $string['aboutus' . $i . 'headingdesc'] = 'Enter About Us #' . $i . ' Heading';
+    $string['aboutus' . $i . 'content'] = 'About Us #' . $i . ' Content';
+    $string['aboutus' . $i . 'contentdesc'] = 'Enter About Us #' . $i . ' Content';
+}
+
+/* Footer Settings */
+$string['displayclientlogoarea'] = 'Display Client Logo Section';
+$string['displayclientlogoareadesc'] = 'Show or Hide Your Client Logo Section';
+for ($i = 1; $i <= 8; $i++) {
+    $string['clientlogo' . $i] = 'Client Logo #' . $i;
+    $string['clientlogo' . $i . 'desc'] = 'Upload Client Logo.';
+    $string['instagram' . $i . 'image'] = 'Instagram #' . $i . ' image';
+    $string['instagram' . $i . 'imagedesc'] = 'Upload Instagram #' . $i . ' image.';
+}
+$string['displayfooter'] = 'Display Footer Section';
+$string['displayfooterdesc'] = 'Show or Hide Footer Section';
+$string['footersection1heading'] = 'Footer Section One Heading';
+$string['footersection1headingdesc'] = 'Enter Footer Section One Heading.For Example. ABOUT &lt;span&gt; ACADEMIC&lt;/span&gt;.';
+$string['footersection1content'] = 'Footer Section One Content';
+$string['footersection1contentdesc'] = 'Enter Footer Section One Content.';
+$string['footersection1email'] = 'Footer Section One Email';
+$string['footersection1emaildesc'] = 'Enter Footer Section One Email.';
+$string['footersection1contactno'] = 'Footer Section One Contact No';
+$string['footersection1contactnodesc'] = 'Enter Footer Section One Contact No.';
+$string['footersection1address'] = 'Footer Section One Address';
+$string['footersection1addressdesc'] = 'Enter Footer Section One Address.';
+$string['footersection2heading'] = 'Footer Section Two Heading';
+$string['footersection2headingdesc'] = 'Enter Footer Section Two Heading.';
+$string['footersection2link1'] = 'Footer Section Two Link 1';
+$string['footersection2link1desc'] = 'Enter Footer Section Two Link 1.';
+$string['footersection2link1url'] = 'Footer Section Two Link 1 URL';
+$string['footersection2link1urldesc'] = 'Enter Footer Section Two Link 1 URL.';
+$string['footersection2link2'] = 'Footer Section Two Link 2';
+$string['footersection2link2desc'] = 'Enter Footer Section Two Link 2.';
+$string['footersection2link2url'] = 'Footer Section Two Link 2 URL';
+$string['footersection2link2urldesc'] = 'Enter Footer Section Two Link 2 URL.';
+$string['footersection2link3'] = 'Footer Section Two Link 3';
+$string['footersection2link3desc'] = 'Enter Footer Section Two Link 3.';
+$string['footersection2link3url'] = 'Footer Section Two Link 3 URL';
+$string['footersection2link3urldesc'] = 'Enter Footer Section Two Link 3 URL.';
+$string['footersection2link4'] = 'Footer Section Two Link 4';
+$string['footersection2link4desc'] = 'Enter Footer Section Two Link 4.';
+$string['footersection2link4url'] = 'Footer Section Two Link 4 URL';
+$string['footersection2link4urldesc'] = 'Enter Footer Section Two Link 4 URL.';
+$string['footersection2link5'] = 'Footer Section Two Link 5';
+$string['footersection2link5desc'] = 'Enter Footer Section Two Link 5.';
+$string['footersection2link5url'] = 'Footer Section Two Link 5 URL';
+$string['footersection2link5urldesc'] = 'Enter Footer Section Two Link 5 URL.';
+$string['footersection3heading'] = 'Footer Section Three Heading';
+$string['footersection3headingdesc'] = 'Enter Footer Section Three Heading.';
+$string['footersection3link1'] = 'Footer Section Three Link 1';
+$string['footersection3link1desc'] = 'Enter Footer Section Three Link 1.';
+$string['footersection3link1url'] = 'Footer Section Three Link 1 URL';
+$string['footersection3link1urldesc'] = 'Enter Footer Section Three Link 1 URL.';
+$string['footersection3link2'] = 'Footer Section Three Link 2';
+$string['footersection3link2desc'] = 'Enter Footer Section Three Link 2.';
+$string['footersection3link2url'] = 'Footer Section Three Link 2 URL';
+$string['footersection3link2urldesc'] = 'Enter Footer Section Three Link 2 URL.';
+$string['footersection3link3'] = 'Footer Section Three Link 3';
+$string['footersection3link3desc'] = 'Enter Footer Section Three Link 3.';
+$string['footersection3link3url'] = 'Footer Section Three Link 3 URL';
+$string['footersection3link3urldesc'] = 'Enter Footer Section Three Link 3 URL.';
+$string['footersection3link4'] = 'Footer Section Three Link 4';
+$string['footersection3link4desc'] = 'Enter Footer Section Three Link 4.';
+$string['footersection3link4url'] = 'Footer Section Three Link 4 URL';
+$string['footersection3link4urldesc'] = 'Enter Footer Section Three Link 4 URL.';
+$string['footersection3link5'] = 'Footer Section Three Link 5';
+$string['footersection3link5desc'] = 'Enter Footer Section Three Link 5.';
+$string['footersection3link5url'] = 'Footer Section Three Link 5 URL';
+$string['footersection3link5urldesc'] = 'Enter Footer Section Three Link 5 URL.';
+$string['footersection4heading'] = 'Footer Section Four Heading';
+$string['footersection4headingdesc'] = 'Enter Footer Section Four Heading.';
+$string['instagram1image'] = 'Instagram One image';
+$string['instagram1imagedesc'] = 'Upload Instagram One image.';
+$string['instagram2image'] = 'Instagram Two image';
+$string['instagram2imagedesc'] = 'Upload Instagram Two image.';
+$string['instagram3image'] = 'Instagram Three image';
+$string['instagram3imagedesc'] = 'Upload Instagram Three image.';
+$string['instagram4image'] = 'Instagram Four image';
+$string['instagram4imagedesc'] = 'Upload Instagram Four image.';
+$string['instagram5image'] = 'Instagram Five image';
+$string['instagram5imagedesc'] = 'Upload Instagram Five image.';
+$string['instagram6image'] = 'Instagram Six image';
+$string['instagram6imagedesc'] = 'Upload Instagram Six image.';
+$string['followus'] = 'Подписывайтесь на нас';
+$string['followusdesc'] = 'Enter Follow Us Text.';
+$string['followusurl'] = 'Follow Us Page URL';
+$string['followusurldesc'] = 'Enter Follow Us Page URL.';
+$string['copyright'] = 'Copy Right';
+$string['copyrightdesc'] = 'Enter Copyright Name';
+$string['backtotop'] = 'Back to top';
+$string['backtotopdesc'] = 'This allows you to set "Back to top" button in footer when scroll is there.';
+$string['footnote'] = 'Footnote';
+$string['footnotedesc'] = 'Whatever you add to this textarea will be displayed in the footer throughout your Moodle site.';
+
+
+
+$string['login'] = 'Войти';
+$string['register'] = 'Регистрируйся';//Регистрация
+$string['createaccount'] = 'Регистрируйся';//Возьми первый урок
+$string['becometeacher'] = 'Для преподавателей. Обучай онлайн.';
+
+$string['benefitstitle'] = 'Начни изучать иностранный язык с репетитором онлайн';
+$string['benefitssubtitle'] = 'Польза в изучении языков';
+$string['benefitsheading1'] = 'УЛУЧШЕНИЕ СВОЕГО CV';
+$string['benefitsheading2'] = 'РАСШИРЯЕТ КРУГОЗОР';
+$string['benefitsheading3'] = 'УЛУЧШАЕТ ПАМЯТЬ';
+$string['benefitsheading4'] = 'ПОЗВОЛЯЕТ ПУТЕШЕСТВОВАТЬ И НАХОДИТЬ ДРУЗЕЙ';
+
+$string['abouttitle'] = 'О нас';
+$string['aboutsubtitle'] = '';
+$string['aboutheading1'] = 'Изучай языки';
+$string['aboutheading2'] = 'Учись онлайн';
+$string['aboutheading3'] = 'Оцени своего учителя';
+$string['aboutheading4'] = 'Уроки онлайн';
+$string['abouttext1'] = 'Изучай языки онлайн!';
+$string['abouttext2'] = 'Учи иностранный язык комфортно, не выходя из дома!';
+$string['abouttext3'] = 'Оцени репетитора и оставь свой отзыв!';
+$string['abouttext4'] = 'Возьми урок онлайн!';
+
+$string['menutagline'] = 'Индивидуальные уроки с репетитором online';
+$string['latestposts'] = 'Блог';
+$string['readmore'] = 'Читать далее';
+$string['readless'] = 'Свернуть текст';
+$string['findlanguage'] = 'Найти язык...';
+
+$string['contactus'] = 'Свяжитесь с нами';
+$string['applyforconsultation'] = 'Запишись на бесплатную консультацию';
+$string['freeconsultation'] = 'Бесплатная консультация';
+$string['apply'] = 'Запишись';
+$string['legaladdress'] = 'Юридический адрес';
+$string['crn'] = 'CRN';
+$string['paymentmethods'] = 'Способы оплаты';
+$string['aboutus'] = 'О нас';
+$string['information'] = 'Информация';
+$string['howitworks'] = 'Как это работает';
+$string['aboutmissionvalues'] = 'Миссия и ценности';
+$string['frequentlyaskedquestions'] = 'Часто задаваемые вопросы';
+$string['faq'] = 'Вопросы-Ответы';
+$string['corporate'] = 'Как быстро выучить иностранный язык';
+$string['giftcards'] = 'Купить подарочные карты';
+$string['languagecamplink'] = 'Летний лагерь в Барселоне';
+$string['careers'] = 'Как стать репетитором на LONET';
+$string['terms'] = 'Условия и положения';
+$string['pricavy'] = 'Политика конфиденциальности';
+$string['blog'] = 'Блог';
+$string['viewallteachers'] = 'Выбери репетитора';
+$string['chooselanguage'] = 'Выбрать язык для изучения';
+$string['whatmemberssay'] = 'Что о нас говорят пользователи LONET';
+$string['readfulltestimonial'] = 'Читать полный отзыв';
+$string['populartutors'] = 'Изучай иностранный язык с носителем языка. Популярные языки и репетиторы:';
+$string['onlinetutors'] = 'Репетиторы Онлайн';
+$string['site_heading'] = 'Лучшие онлайн репетиторы';
+
+$string['h1_page_howitworks'] = 'Как работает платформа Lonet.Academy';
+$string['meta_title_page_howitworks'] = 'Репетиторы по иностранным языкам. Как работает Lonet.Academy.';
+$string['meta_description_page_howitworks'] = 'Как зарегистрироваться на Lonet.Academy. Как выбрать хорошего репетитора по иностранному языку онлайн и забронировать пробный урок онлайн!';
+$string['h1_page_aboutmissionvalues'] = 'Миссия и ценности';
+$string['meta_title_page_aboutmissionvalues'] = 'О Lonet.Academy. Наша миссия и основные ценности.';
+$string['meta_description_page_aboutmissionvalues'] = 'Наши репетиторы по иностранным языкам создают уроки один на один для людей со всего мира, чтобы помочь им выучить языки быстро и максимально индивидуально. Влюбитесь в изучение языков в Lonet.Academy!';
+$string['h1_page_corporate'] = 'Как быстро выучить иностранный язык?';
+$string['meta_title_page_corporate'] = 'Как быстро выучить иностранный язык?';
+$string['meta_description_page_corporate'] = '6 советов о том, как быстро выучить иностранный язык. Это реально! Репетиторы Lonet.Academy вывели три формулы как учить язык легко, быстро и эффективно.';
+$string['h1_page_faq'] = 'Часто задаваемые вопросы о том, как лучше учить иностранный язык';
+$string['meta_title_page_faq'] = '10 вопросов о том, как лучше учить иностранный язык';
+$string['meta_description_page_faq'] = 'Lonet.Academy отвечает на вопросы про изучение иностранных языков. Как быстрее и лучше учить иностранный язык? Сколько стоит репетитор по английскому? И др.';
+$string['h1_page_careers'] = 'Преподавать иностранный язык по скайпу на Lonet.Academy';
+$string['meta_title_page_careers'] = 'Как начать преподавать иностранный язык по скайпу';
+$string['meta_description_page_careers'] = 'Присоединяйся к Lonet.Academy и начни преподавать язык по скайпу уже сегодня! Работать репетитором онлайн - это современно, удобно, выгодно и интересно.';
+$string['h1_page_giftcard'] = 'Сделай красивый подарок - подарок знаний!';
+$string['meta_title_page_giftcard'] = 'Подарочные карты на языковые курсы с репетитором';
+$string['meta_description_page_giftcard'] = 'Подари друзьям, коллегам, бизнес партнерам или членам семьи то, что будет всегда полезно! Подарочные карты на курсы иностранных языков с репетитором онлайн.';
+$string['meta_title_page_languagecamp'] = 'Летний лагерь английского в Испании. Курсы английского языка Lonet.Academy в Барселоне.';
+$string['meta_description_page_languagecamp'] = 'Летний лагерь английского в Испании. Курсы английского языка  Lonet.Academy и мероприятия в Барселоне.';
+$string['meta_title_page_landingpage'] = 'Выбери своего репетитора по иностранному языку и бронируй урок.';
+$string['meta_description_page_landingpage'] = 'Lonet.Academy репетиторы онлайн вдохновляют людей на изучение языков. Выбери репетитора по иностранному языку и бронируй пробный урок!';
+$string['meta_title_page_teacher_list'] = 'Репетиторы по иностранным языкам. Забронировать пробный урок онлайн на Lonet.Academy.';
+$string['meta_description_page_teacher_list'] = 'Лучшие репетиторы по иностранному языку онлайн и забронируй пробный урок на Lonet.Academy.';
+$string['languages'] = 'Языки';
+$string['Refer_a_friend_get'] = 'Пригласите друга и получите 10 EUR';
+$string['share_it_with_friends'] = 'Если вы довольны уроками на Lonet.Academy, поделитесь идеей с друзьями и коллегами и вы оба пополните ваш баланс на 10 евро.';
+$string['Invite_now'] = 'Пригласи сейчас';
+$string['Profile_Completion'] = 'Завершение профиля';
+$string['Acceptance_Rate'] = 'Показатель отзывчивости';
+$string['completeprofile'] = 'Заполни свой профиль';
+$string['downloadebook'] = 'Скачать мою электронную книгу';

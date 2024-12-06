@@ -1,0 +1,7 @@
+Sitemap: https://lonet.academy/sitemap.xml
+User-agent: *
+Disallow: /admin
+Disallow: /auth/
+Disallow: /tag/
+Disallow: /mod/
+Disallow: /help*

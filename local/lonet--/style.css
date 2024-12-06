@@ -1,0 +1,30 @@
+.grouplessontable th.perperson{
+	width:11%;
+}
+.grouplessontable th.maxamount{
+	width:16%;
+}
+.grouplessontable td.perperson input{
+	width:100px;
+}
+.grouplessontable td.maxamount input{
+	width:160px;
+}
+.expandgroup .btn, .expandindi .btn, .expandgroup .btn:hover, .expandindi .btn:hover{
+	background:rgba(255,255,255,.75);
+}
+.levelselect .ms-list, .ageselect .ms-list{
+	height:115px !important;
+}
+.levelselect .ms-container, .ageselect .ms-container{
+	width:200px !important;
+}
+.grouplessonform .ms-container{margin-top:1rem !important;}
+.form-grouplesson.ageofstudents label,.form-grouplesson.level label{vertical-align:middle !important;}
+.grouplessontable{width:100%;}
+.grouplesson_information .user-description h1,.grouplesson_information .user-description h2,.grouplesson_information .user-description h3,.grouplesson_information .user-description h4,.grouplesson_information .user-description h5,.grouplesson_information .user-description h6,.grouplesson_information .user-description p,.grouplesson_information .user-description div{
+	color: #333!important;
+}
+.desclessondiv label, .whatlearndiv label{
+	vertical-align:middle;
+}

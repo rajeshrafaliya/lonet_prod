@@ -1,0 +1,76 @@
+# Translation of Plugins - Uber Login Logo - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Uber Login Logo - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-27 09:53:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Uber Login Logo - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.uberweb.com.au/"
+msgstr "http://www.uberweb.com.au/"
+
+#. Author of the plugin/theme
+msgid "UberWeb"
+msgstr "UberWeb"
+
+#. Description of the plugin/theme
+msgid "Change your login logo."
+msgstr "Измените свой логотип в форме входа."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.uberweb.com.au/uber-login-logo-wordpress-plugin/"
+msgstr "http://www.uberweb.com.au/uber-login-logo-wordpress-plugin/"
+
+#. Plugin Name of the plugin/theme
+msgid "Uber Login Logo"
+msgstr "Uber Login Logo"
+
+#: uber-login-logo.php:166
+msgid "Here is a preview of your selected image at actual size"
+msgstr "Вот предварительный просмотр выбранного вами изображения в реальном размере"
+
+#: uber-login-logo.php:162
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: uber-login-logo.php:158
+msgid "Finished!"
+msgstr "Завершено!"
+
+#: uber-login-logo.php:157
+msgid "Select your desired image size and click \"insert into post\"."
+msgstr "Выберите нужный размер изображения и нажмите «вставить в пост»."
+
+#: uber-login-logo.php:156
+msgid "It is highly recommended that you select an image with a width less than 320px."
+msgstr "Настоятельно рекомендуется выбрать изображение с шириной менее 320 пикселей."
+
+#: uber-login-logo.php:155
+msgid "Use the WordPress media uploader to upload an image, or select one from the media library."
+msgstr "Используйте загрузчик мультимедиа WordPress для загрузки изображения или выберите его из библиотеки мультимедиа."
+
+#: uber-login-logo.php:153
+msgid "How it Works"
+msgstr "Как это работает"
+
+#: uber-login-logo.php:151
+msgid "by %1$s from %2$s"
+msgstr "%1$s из %2$s"
+
+#: uber-login-logo.php:148
+msgid "Settings Saved"
+msgstr "Настройки сохранены"
+
+#: uber-login-logo.php:127
+msgid "Settings"
+msgstr "Настройки"
+
+#: uber-login-logo.php:105
+msgid "Uber Login Logo Settings"
+msgstr "Настройки Uber Login Logo"

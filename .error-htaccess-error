@@ -1,0 +1,58 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteRule ^/privacy-policy /mod/page/view.php?id=2
+RewriteRule ^/terms-and-conditions /mod/page/view.php?id=20
+RewriteRule ^/how-it-works /mod/page/view.php?id=21
+RewriteRule ^/faq /mod/page/view.php?id=22
+RewriteRule ^/corporate-partnership /mod/page/view.php?id=23
+RewriteRule ^/careers /mod/page/view.php?id=24
+RewriteRule ^/language-tutor-consultation /local/lonet/consultation.php
+RewriteRule ^/language-camp /local/lonet/language_camp.php
+
+RewriteRule ^/language-gift-cards /local/lonet/gift_card.php?lang=en
+RewriteRule ^/valodu-kursi-davanu-kartes /local/lonet/gift_card.php?lang=lv
+RewriteRule ^/podarochnye-karty-yazykovye-kursi /local/lonet/gift_card.php?lang=ru
+
+RewriteRule ^/teacher/(\d+)$ /user/profile.php?teacher_profile=1&id=$1
+RewriteRule ^/language-teachers-online/([a-z_0-9-]+)/(\d+)$ /user/profile.php?teacher_profile=1&id=$2&lang=en
+RewriteRule ^/valodu-pasniedzeji-online/([a-z_0-9-]+)/(\d+)$ /user/profile.php?teacher_profile=1&id=$2&lang=lv
+RewriteRule ^/repetitory-online/([a-z_0-9-]+)/(\d+)$ /user/profile.php?teacher_profile=1&id=$2&lang=ru
+RewriteRule ^/language-teachers/([a-z_0-9-]+)/(\d+)$ /user/profile.php?teacher_profile=1&id=$2&lang=en
+RewriteRule ^/valodu-kursi/([a-z_0-9-]+)/(\d+)$ /user/profile.php?teacher_profile=1&id=$2&lang=lv
+RewriteRule ^/repetitor/([a-z_0-9-]+)/(\d+)$ /user/profile.php?teacher_profile=1&id=$2&lang=ru
+
+RewriteRule ^teachers/([a-z]+)?(.*)$ local/lonet/index.php?language=$1&$2
+RewriteRule ^language-teachers-online/([a-z_0-9-]+)?(.*)$ local/lonet/index.php?url=$1&$2&lang=en
+RewriteRule ^valodu-pasniedzeji-online/([a-z_0-9-]+)?(.*)$ local/lonet/index.php?url=$1&$2&lang=lv
+RewriteRule ^repetitory-online/([a-z_0-9-]+)?(.*)$ local/lonet/index.php?url=$1&$2&lang=ru
+RewriteRule ^language-teachers/([a-z_0-9-]+)?(.*)$ local/lonet/index.php?url=$1&$2&lang=en
+RewriteRule ^valodu-kursi/([a-z_0-9-]+)?(.*)$ local/lonet/index.php?url=$1&$2&lang=lv
+RewriteRule ^repetitor/([a-z_0-9-]+)?(.*)$ local/lonet/index.php?url=$1&$2&lang=ru
+
+RewriteRule ^teachers/([a-z]+)$ local/lonet/index.php?language=$1
+RewriteRule ^language-teachers-online/([a-z_0-9-]+)$ local/lonet/index.php?url=$1&lang=en
+RewriteRule ^valodu-pasniedzeji-online/([a-z_0-9-]+)$ local/lonet/index.php?url=$1&lang=lv
+RewriteRule ^repetitory-online/([a-z_0-9-]+)$ local/lonet/index.php?url=$1&lang=ru
+RewriteRule ^language-teachers/([a-z_0-9-]+)$ local/lonet/index.php?url=$1&lang=en
+RewriteRule ^valodu-kursi/([a-z_0-9-]+)$ local/lonet/index.php?url=$1&lang=lv
+RewriteRule ^repetitor/([a-z_0-9-]+)$ local/lonet/index.php?url=$1&lang=ru
+
+RewriteRule ^/teachers /local/lonet/index.php
+RewriteRule ^/language-teachers-online /local/lonet/index.php?lang=en
+RewriteRule ^/valodu-pasniedzeji-online /local/lonet/index.php?lang=lv
+RewriteRule ^/repetitory-online /local/lonet/index.php?lang=ru
+RewriteRule ^/language-teachers /local/lonet/index.php?lang=en
+RewriteRule ^/valodu-kursi /local/lonet/index.php?lang=lv
+RewriteRule ^/repetitor /local/lonet/index.php?lang=ru
+
+RewriteRule ^/user/(\d+)$ /user/profile.php?id=$1
+RewriteRule ^/user/(\d+)/edit$ /user/edit.php?returnto=profile&id=$1
+RewriteRule ^/contact-us /mod/page/view.php?id=25
+
+RewriteRule ^/about-mission-values /mod/page/view.php?id=37
+RewriteRule ^/mision-y-valores /mod/page/view.php?id=38
+RewriteRule ^/misija-un-vertibas /mod/page/view.php?id=39
+RewriteRule ^/missiya-i-tsennosti /mod/page/view.php?id=40

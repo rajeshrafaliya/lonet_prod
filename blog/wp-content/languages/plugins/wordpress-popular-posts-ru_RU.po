@@ -1,0 +1,636 @@
+# Translation of Plugins - WordPress Popular Posts - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - WordPress Popular Posts - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-11 17:06:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WordPress Popular Posts - Stable (latest release)\n"
+
+#: src/Admin/screen-tools.php:157
+msgid "Load popular posts list via AJAX"
+msgstr "Загружать список популярных записей через AJAX"
+
+#: src/Admin/screen-stats.php:95
+msgid "See your most viewed posts of all time"
+msgstr "Просмотрите свои самые просматриваемые записи за все время"
+
+#: src/Admin/screen-stats.php:94
+msgid "See your most viewed posts within the last hour"
+msgstr "Смотрите ваши самые просматриваемые записи за последний час"
+
+#: src/Admin/screen-stats.php:93
+msgid "See your most commented posts within the selected time range"
+msgstr "Просматривайте свои самые комментируемые записи в выбранном временном диапазоне."
+
+#: src/Admin/screen-stats.php:92
+msgid "See your most viewed posts within the selected time range"
+msgstr "Просматривайте свои самые просматриваемые записи в выбранном временном диапазоне."
+
+#: src/Admin/Admin.php:1501
+msgid "Remind me later"
+msgstr "Напомнить позже"
+
+#: src/Admin/Admin.php:1501
+msgid "Dismiss"
+msgstr "Отклонить"
+
+#: src/Admin/screen-tools.php:265
+msgid "Enable experimental features"
+msgstr "Включить экспериментальные функции"
+
+#: src/Admin/Admin.php:687
+msgid "Support"
+msgstr "Поддержка"
+
+#: src/Admin/screen-tools.php:89
+msgid "No, use image as is"
+msgstr "Нет, использовать изображение как есть"
+
+#: src/Admin/Admin.php:1495
+msgid "<strong>WordPress Popular Posts:</strong> It seems your site is popular (great!) You may want to check <a href=\"%s\">these recommendations</a> to make sure your website's performance stays up to par."
+msgstr "<strong>WordPress Popular Posts:</strong> кажется, что ваш сайт популярен (отлично!) Вы можете проверить <a href=\"%s\">эти рекомендации</a>, чтобы убедиться, что производительность вашего сайта остается на должном уровне. пар."
+
+#: src/Admin/screen-tools.php:74
+msgid "No"
+msgstr "Нет"
+
+#: src/Admin/screen-tools.php:71
+msgid "Lazy load"
+msgstr "Отложенная загрузка"
+
+#: src/Admin/Admin.php:514
+msgid "View more"
+msgstr "Посмотреть больше"
+
+#: src/Rest/WidgetEndpoint.php:87
+msgid "Invalid Widget Instance ID"
+msgstr "Недействительный ID экземпляра виджета"
+
+#: src/Admin/Admin.php:766 src/Admin/Admin.php:1168 src/Admin/Admin.php:1172
+#: src/Output.php:868 src/Shortcode/ViewsCount.php:79
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s просмотр"
+msgstr[1] "%s просмотра"
+msgstr[2] "%s просмотров"
+
+#: src/Admin/Admin.php:766 src/Admin/Admin.php:1170 src/Admin/Admin.php:1172
+#: src/Output.php:851
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s комментарий"
+msgstr[1] "%s комментария"
+msgstr[2] "%s комментариев"
+
+#: src/Rest/PostsEndpoint.php:202
+msgid "Include popular posts from author ID(s)."
+msgstr "Включение популярных записей от автора(ов) ID."
+
+#: src/Rest/PostsEndpoint.php:178
+msgid "Post IDs to exclude from the listing."
+msgstr "ID записей для исключения из списка."
+
+#: src/Admin/screen-tools.php:177
+msgid "WPP can cache the popular list for a specified amount of time. Recommended for large / high traffic sites"
+msgstr "WPP может кэшировать популярный список на определенное количество времени. Рекомендуется для сайтов с большим/высоким трафиком"
+
+#: src/Admin/screen-tools.php:169
+msgid "Data Caching"
+msgstr "Кеширование данных"
+
+#: src/Rest/ViewLoggerEndpoint.php:312
+msgid "Sets the Sampling Rate."
+msgstr "Устанавливает частоту выборки."
+
+#: src/Rest/ViewLoggerEndpoint.php:305
+msgid "Enables Data Sampling."
+msgstr "Включает выборку данных."
+
+#: src/Rest/ViewLoggerEndpoint.php:298
+msgid "The post / page ID."
+msgstr "ID записи / страницы."
+
+#: src/Rest/PostsEndpoint.php:194
+msgid "Taxonomy IDs, separated by comma (prefix a minus sign to exclude)."
+msgstr "Таксономические идентификаторы, разделенные запятой (для исключения приставьте знак минус)."
+
+#: src/Rest/PostsEndpoint.php:186
+msgid "Include posts in a specified taxonomy."
+msgstr "Включите записи в указанную таксономию."
+
+#: src/Rest/PostsEndpoint.php:170
+msgid "Specifies the number of time units of the custom time range."
+msgstr "Указание количества временных единиц пользовательского временного диапазона."
+
+#: src/Rest/PostsEndpoint.php:162
+msgid "Specifies the time unit of the custom time range."
+msgstr "Указание единицы измерения пользовательского диапазона времени."
+
+#: src/Rest/PostsEndpoint.php:154
+msgid "Return popular posts from a specified time range."
+msgstr "Возвращает популярные сообщения из указанного временного диапазона."
+
+#: src/Rest/PostsEndpoint.php:146
+msgid "Set the sorting option of the popular posts."
+msgstr "Установите опцию сортировки популярных сообщений."
+
+#: src/Rest/PostsEndpoint.php:138
+msgid "An offset point for the collection."
+msgstr "Точка смещения для коллекции."
+
+#: src/Rest/PostsEndpoint.php:130
+msgid "Retrieve the most popular entries published within the specified time range."
+msgstr "Самые популярные записи, опубликованные за указанный период времени."
+
+#: src/Rest/PostsEndpoint.php:122
+msgid "The maximum number of popular posts to return."
+msgstr "Максимальное количество популярных записей для возврата."
+
+#: src/Rest/PostsEndpoint.php:115
+msgid "Return popular posts from specified custom post type(s)."
+msgstr "Возвращает популярные сообщения из указанного(ых) пользовательского(ых) типа(ов) сообщений."
+
+#: src/Admin/screen-tools.php:42
+msgid "This image will be displayed when no thumbnail is available"
+msgstr "Это изображение будет отображаться, если миниатюра не доступна"
+
+#: src/Admin/screen-tools.php:38
+msgid "Change thumbnail"
+msgstr "Изменить миниатюру"
+
+#: src/Admin/screen-stats.php:95
+msgid "Hall of Fame"
+msgstr "Зал славы"
+
+#: src/Admin/Admin.php:425 src/Admin/screen-stats.php:94
+msgid "Trending now"
+msgstr "Актуально"
+
+#: src/Admin/screen-stats.php:93
+msgid "Most commented"
+msgstr "Самые комментируемые"
+
+#: src/Admin/screen-stats.php:92
+msgid "Most viewed"
+msgstr "Наиболее просматриваемые"
+
+#: src/Admin/screen-stats.php:78
+msgid "Today"
+msgstr "Сегодня"
+
+#: src/Admin/Admin.php:543
+msgid "Use this image"
+msgstr "Использовать это изображение"
+
+#: src/Admin/Admin.php:391
+msgid "%s view in the last hour"
+msgid_plural "%s views in the last hour"
+msgstr[0] "%s просмотр за последний час"
+msgstr[1] "%s просмотра за последний час"
+msgstr[2] "%s просмотров за последний час"
+
+#: src/Admin/screen-tools.php:151
+msgid "Data older than the specified time frame will be automatically discarded"
+msgstr "Данные, превышающие указанный временной интервал, будут автоматически удалены"
+
+#: src/Admin/screen-stats.php:82 assets/js/blocks/block-wpp-widget.js:1
+#: src/Block/Widget/edit.js:203
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: src/Output.php:885
+msgid "posted %s"
+msgstr "публикация %s"
+
+#: src/Output.php:679
+msgid "%s ago"
+msgstr "%s назад"
+
+#: src/Admin/screen-stats.php:86
+msgid "Err... A nice little chart is supposed to be here, instead you are seeing this because your browser is too old. <br /> Please <a href=\"%s\" target=\"_blank\">get a better browser</a>."
+msgstr "Эм... Хорошая маленькая диаграмма должна быть здесь, вместо этого вы видите это, потому что ваш браузер слишком стар. <br /> Пожалуйста, <a href=\"%s\" target=\"_blank\">найдите браузер получше</a>."
+
+#: src/Admin/screen-stats.php:58
+msgid "Select a date..."
+msgstr "Выберите дату..."
+
+#: src/Admin/screen-stats.php:44
+msgid "Date Range"
+msgstr "Диапазон дат"
+
+#: src/Admin/screen-stats.php:43
+msgid "Custom Time Range"
+msgstr "Произвольный временной диапазон"
+
+#: src/Admin/screen-stats.php:33 src/Admin/screen-stats.php:68
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/Admin/Admin.php:686
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/Admin/Admin.php:1185
+msgid "Looks like your site's activity is a little low right now. <br />Spread the word and come back later!"
+msgstr "Похоже, активность вашего сайта сейчас немного низкая. <br />Распространяйте информацию и возвращайтесь позже!"
+
+#: src/Admin/Admin.php:1174 assets/js/blocks/block-wpp-widget.js:1
+#: src/Block/Widget/edit.js:125
+msgid "Edit"
+msgstr "Изменить"
+
+#: src/Admin/Admin.php:1174
+msgid "View"
+msgstr "Просмотр"
+
+#: src/Admin/Admin.php:791
+msgid "Views"
+msgstr "Просмотры"
+
+#: src/Admin/Admin.php:660
+msgid "<p><strong>For more information:</strong></p><ul><li><a href=\"%1$s\">Documentation</a></li><li><a href=\"%2$s\">Support</a></li></ul>"
+msgstr "<p><strong>Больше информации:</strong></p><ul><li><a href=\"%1$s\">Документация</a></li><li><a href=\"%2$s\">Поддержка</a></li></ul>"
+
+#: src/Admin/Admin.php:644
+msgid "Like this plugin?"
+msgstr "Нравится этот плагин?"
+
+#: src/Admin/Admin.php:638
+msgid "Welcome to WordPress Popular Posts' Dashboard! In this screen you will find statistics on what's popular on your site, tools to further tweak WPP to your needs, and more!"
+msgstr "Добро пожаловать в панель инструментов WordPress Popular Posts! Тут вы найдете статистику того, что популярно на вашем сайте, инструменты для дальнейшей настройки WPP для ваших нужд и многое другое!"
+
+#: src/Admin/Admin.php:637
+msgid "Overview"
+msgstr "Обзор"
+
+#: src/Admin/screen-tools.php:51
+msgid "First attachment"
+msgstr "Первое вложение"
+
+#. Author URI of the plugin
+#: wordpress-popular-posts.php
+msgid "https://cabrerahector.com/"
+msgstr "https://cabrerahector.com/"
+
+#. Author of the plugin
+#: wordpress-popular-posts.php
+msgid "Hector Cabrera"
+msgstr "Hector Cabrera"
+
+#. Plugin URI of the plugin
+#: wordpress-popular-posts.php
+msgid "https://wordpress.org/plugins/wordpress-popular-posts/"
+msgstr "https://ru.wordpress.org/plugins/wordpress-popular-posts/"
+
+#. Plugin Name of the plugin
+#: wordpress-popular-posts.php
+msgid "WordPress Popular Posts"
+msgstr "WordPress Popular Posts"
+
+#: src/Output.php:890
+msgid "under %s"
+msgstr "под %s"
+
+#: src/Output.php:885
+msgid "posted on %s"
+msgstr "опубликовано %s"
+
+#: src/Output.php:880
+msgid "by %s"
+msgstr "от %s"
+
+#: src/Output.php:862
+msgid "%s view per day"
+msgid_plural "%s views per day"
+msgstr[0] "%s просмотр в день"
+msgstr[1] "%s просмотра в день"
+msgstr[2] "%s просмотров в день"
+
+#: src/Output.php:299
+msgid "Sorry. No data so far."
+msgstr "Извините. Данных пока нет."
+
+#: src/Admin/Admin.php:555
+msgid "The thumbnail cache is already empty!"
+msgstr "Кеш миниатюр уже пуст!"
+
+#: src/Admin/Admin.php:554
+msgid "Success! All files have been deleted!"
+msgstr "Успех! Все файлы были удалены!"
+
+#: src/Admin/Admin.php:557 src/Admin/screen-debug.php:5
+#: src/Admin/screen-tools.php:5
+msgid "Sorry, you do not have enough permissions to do this. Please contact the site administrator for support."
+msgstr "К сожалению, у вас недостаточно прав, чтобы сделать это. Пожалуйста, обратитесь к администратору сайта для поддержки."
+
+#: src/Admin/Admin.php:558
+msgid "Invalid action."
+msgstr "Неправильное действие."
+
+#: src/Admin/Admin.php:552
+msgid "Error: one or both data tables are missing."
+msgstr "Ошибка: отсутствует одна или обе таблицы данных."
+
+#: src/Admin/Admin.php:551
+msgid "Success! All data have been cleared!"
+msgstr "Успех! Все данные были очищены!"
+
+#: src/Admin/Admin.php:549
+msgid "Error: cache table does not exist."
+msgstr "Ошибка: нет таблицы кеша."
+
+#: src/Admin/Admin.php:548
+msgid "Success! The cache table has been cleared!"
+msgstr "Успех! Таблица кеша была очищена!"
+
+#: src/Widget/Widget.php:79
+msgid "The most Popular Posts on your blog."
+msgstr "Самые популярные записи в вашем блоге."
+
+#: src/Admin/Admin.php:787 assets/js/blocks/block-wpp-widget.js:1
+#: src/Block/Widget/edit.js:191
+msgid "Comments"
+msgstr "Комментарии"
+
+#: src/Admin/Admin.php:653
+msgid "You can <a href=\"%s\" target=\"_blank\">leave a review</a>, too!"
+msgstr "Вы также можете <a href=\"%s\" target=\"_blank\">оставить</a>, отзыв!"
+
+#: src/Admin/Admin.php:646
+msgid "Each donation motivates me to keep releasing free stuff for the WordPress community!"
+msgstr "Каждое пожертвование мотивирует меня продолжать выпускать бесплатные материалы для сообщества WordPress!"
+
+#: src/Admin/screen-tools.php:288
+msgid "Use this button to manually clear entries from all WPP data tables"
+msgstr "﻿Используйте эту кнопку, чтобы вручную удалить записи из всех таблиц WPP"
+
+#: src/Admin/screen-tools.php:288
+msgid "Clear all data"
+msgstr "Очистить все данные"
+
+#: src/Admin/screen-tools.php:287
+msgid "Use this button to manually clear entries from WPP cache only"
+msgstr "﻿Используйте эту кнопку, чтобы вручную удалить записи только из кэша WPP"
+
+#: src/Admin/screen-tools.php:287
+msgid "Empty cache"
+msgstr "Очистить кэш"
+
+#: src/Admin/screen-tools.php:286
+msgid "WordPress Popular Posts maintains data in two separate tables: one for storing the most popular entries on a daily basis (from now on, \"cache\"), and another one to keep the All-time data (from now on, \"historical data\" or just \"data\"). If for some reason you need to clear the cache table, or even both historical and cache tables, please use the buttons below to do so."
+msgstr "Плагин WPP содержит данные в двух отдельных таблицах: в одной для хранения самых популярных записей на ежедневной основе (т.е. «кэш») в другой держат все данные за все время (т.е. «исторические данные» или просто «данные»). Если по какой-либо причине вам нужно очистить кэш таблицы, или даже обе таблицы и историческую и кэш таблиц, пожалуйста, чтобы сделать это используйте кнопки, расположенные ниже."
+
+#: src/Admin/screen-tools.php:261
+msgid "By default, the plugin includes a stylesheet called wpp.css which you can use to style your popular posts listing. If you wish to use your own stylesheet or do not want it to have it included in the header section of your site, use this."
+msgstr "По умолчанию плагин включает таблицу стилей, называемую wpp.css, которую вы можете использовать для создания списка популярных записей. Если вы хотите использовать свою собственную таблицу стилей или не хотите, чтобы она была включена в раздел заголовка вашего сайта, используйте это."
+
+#: src/Admin/screen-tools.php:254
+msgid "Use plugin's stylesheet"
+msgstr "Использовать таблицу стилей плагина"
+
+#: src/Admin/screen-tools.php:248
+msgid "New tab/window"
+msgstr "Новая вкладка/окно"
+
+#: src/Admin/screen-tools.php:247
+msgid "Current window"
+msgstr "Текущее окно"
+
+#: src/Admin/screen-tools.php:244
+msgid "Open links in"
+msgstr "Открывать ссылки в"
+
+#: src/Admin/screen-tools.php:238
+msgid "Miscellaneous"
+msgstr "Разное"
+
+#: src/Admin/screen-tools.php:216
+msgid "Sample Rate"
+msgstr "Примерная частота выборки"
+
+#: src/Admin/screen-tools.php:207
+msgid "By default, WordPress Popular Posts stores in database every single visit your site receives. For small / medium sites this is generally OK, but on large / high traffic sites the constant writing to the database may have an impact on performance. With <a href=\"%1$s\" target=\"_blank\">data sampling</a>, WordPress Popular Posts will store only a subset of your traffic and report on the tendencies detected in that sample set (for more, <a href=\"%2$s\" target=\"_blank\">please read here</a>)"
+msgstr "По умолчанию история плагина WPP хранится в базе данных для каждого визита на сайте. Для малых/средних сайтов это вообще нормально, но для большого/высоконагруженного трафиком сайта постоянная запись в базу данных может повлиять на его производительность. С <a href=\"%1$s\" target=\"_blank\">выборкой данных</a>, Популярные Публикации WordPress будут хранить только подмножество вашего трафика, отчет на основании обнаруженные в этом образце (для больше, <a href=\"%2$s\" target=\"_blank\">читайте здесь</a>)"
+
+#: src/Admin/screen-tools.php:197
+msgid "Data Sampling"
+msgstr "Выборка данных"
+
+#: src/Admin/screen-tools.php:193
+msgid "Really? That long?"
+msgstr "Правда? Так долго?"
+
+#: src/Admin/screen-tools.php:190
+msgid "Year(s)"
+msgstr "Год(а)"
+
+#: src/Admin/screen-tools.php:189
+msgid "Month(s)"
+msgstr "Месяц(ы)"
+
+#: src/Admin/screen-tools.php:188
+msgid "Week(s)"
+msgstr "Неделя(недели)"
+
+#: src/Admin/screen-stats.php:53 src/Admin/screen-tools.php:187
+#: assets/js/blocks/block-wpp-widget.js:1 src/Block/Widget/edit.js:220
+msgid "Day(s)"
+msgstr "День(дни)"
+
+#: src/Admin/screen-stats.php:52 src/Admin/screen-tools.php:186
+#: assets/js/blocks/block-wpp-widget.js:1 src/Block/Widget/edit.js:219
+msgid "Hour(s)"
+msgstr "Час(ы)"
+
+#: src/Admin/screen-stats.php:51 src/Admin/screen-tools.php:185
+#: assets/js/blocks/block-wpp-widget.js:1 src/Block/Widget/edit.js:218
+msgid "Minute(s)"
+msgstr "Минуту(ы)"
+
+#: src/Admin/screen-tools.php:181
+msgid "Refresh cache every"
+msgstr "Всегда обновлять кэш"
+
+#: src/Admin/screen-tools.php:173
+msgid "Enable caching"
+msgstr "Включить кэширование"
+
+#: src/Admin/screen-tools.php:172
+msgid "Never cache"
+msgstr "Никогда не кэшировать"
+
+#: src/Admin/screen-tools.php:71 src/Admin/screen-tools.php:169
+#: src/Admin/screen-tools.php:197 assets/js/blocks/block-wpp-widget.js:1
+#: src/Block/Widget/edit.js:684
+msgid "What is this?"
+msgstr "Что это?"
+
+#: src/Admin/screen-tools.php:165
+msgid "If you are using a caching plugin such as WP Super Cache, enabling this feature will keep the popular list from being cached by it"
+msgstr "﻿Если вы используете кэширование с помощью планинов типа WP Super Cache, включите эту функцию. Она защитит список популярных записей от кэширования"
+
+#: src/Admin/screen-tools.php:148
+msgid "day(s)"
+msgstr "дня(-ей)"
+
+#: src/Admin/screen-tools.php:144
+msgid "Keep data for"
+msgstr "Хранить данные"
+
+#: src/Admin/screen-tools.php:140
+msgid "Log limit"
+msgstr "Ограничение журнала"
+
+#: src/Admin/screen-tools.php:134
+msgid "Everyone"
+msgstr "Всем"
+
+#: src/Admin/screen-tools.php:133
+msgid "Logged-in users only"
+msgstr "Только авторизованные пользователи"
+
+#: src/Admin/screen-tools.php:132
+msgid "Visitors only"
+msgstr "Только посетители"
+
+#: src/Admin/screen-tools.php:129
+msgid "Log views from"
+msgstr "Записывать данные по"
+
+#: src/Admin/screen-tools.php:123
+msgid "Data"
+msgstr "Данные"
+
+#: src/Admin/screen-tools.php:102
+msgid "Use this button to clear WPP's thumbnails cache"
+msgstr "Используйте эту кнопку, чтобы очистить кэш миниатюр WPP"
+
+#: src/Admin/screen-tools.php:101
+msgid "Empty image cache"
+msgstr "Очистить кеш изображений"
+
+#: src/Admin/screen-tools.php:143 src/Admin/screen-tools.php:160
+#: src/Admin/screen-tools.php:200 src/Admin/screen-tools.php:258
+msgid "Disabled"
+msgstr "Выключено"
+
+#: src/Admin/screen-tools.php:161 src/Admin/screen-tools.php:201
+#: src/Admin/screen-tools.php:257
+msgid "Enabled"
+msgstr "Включено"
+
+#: src/Admin/screen-tools.php:75 src/Admin/screen-tools.php:90
+msgid "Yes"
+msgstr "Да"
+
+#: src/Admin/screen-tools.php:86
+msgid "Resize image from Custom field?"
+msgstr "Изменить размер изображения из пользовательского поля?"
+
+#: src/Admin/screen-tools.php:80
+msgid "Custom field name"
+msgstr "Название пользовательского поля"
+
+#: src/Admin/screen-tools.php:55
+msgid "Tell WordPress Popular Posts where it should get thumbnails from"
+msgstr "Укажите плагину WordPress Popular Posts откуда брать миниатюры записей"
+
+#: src/Admin/screen-tools.php:52
+msgid "Custom field"
+msgstr "Пользовательское поле"
+
+#: src/Admin/screen-tools.php:50
+msgid "First image on post"
+msgstr "Первое изображение в записи"
+
+#: src/Admin/screen-tools.php:49
+msgid "Featured image"
+msgstr "Миниатюра записи"
+
+#: src/Admin/screen-tools.php:46
+msgid "Pick image from"
+msgstr "Взять изображение из"
+
+#: src/Admin/screen-tools.php:19
+msgid "Default thumbnail"
+msgstr "Миниатюра по-умолчанию"
+
+#: src/Admin/screen-tools.php:13
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: src/Admin/screen-stats.php:81 assets/js/blocks/block-wpp-widget.js:1
+#: src/Block/Widget/edit.js:201
+msgid "Last 30 days"
+msgstr "Последние 30 дней"
+
+#: src/Admin/screen-stats.php:80 assets/js/blocks/block-wpp-widget.js:1
+#: src/Block/Widget/edit.js:200
+msgid "Last 7 days"
+msgstr "Последние 7 дней"
+
+#: src/Admin/screen-stats.php:79
+msgid "Last 24 hours"
+msgstr "Последние 24 часа"
+
+#: src/Admin/screen-stats.php:25 assets/js/blocks/block-wpp-widget.js:1
+#: src/Block/Widget/edit.js:227
+msgid "Display only posts published within the selected Time Range"
+msgstr "Показывать посты опубликованные только за выбранный временной диапазон"
+
+#: src/Admin/screen-stats.php:32 src/Admin/screen-stats.php:65
+#: src/Admin/screen-tools.php:111 src/Admin/screen-tools.php:226
+#: src/Admin/screen-tools.php:273
+msgid "Apply"
+msgstr "Применить"
+
+#: src/Admin/screen-stats.php:21 assets/js/blocks/block-wpp-widget.js:1
+#: src/Block/Widget/edit.js:181
+msgid "Limit"
+msgstr "Лимит"
+
+#: src/Admin/screen-stats.php:18
+msgid "Post type"
+msgstr "Тип контента"
+
+#: src/Admin/admin-page.php:9
+msgid "Parameters"
+msgstr "Параметры"
+
+#: src/Admin/admin-page.php:8 src/Admin/admin-page.php:120
+msgid "Tools"
+msgstr "Инструменты"
+
+#: src/Admin/admin-page.php:7 src/Admin/admin-page.php:119
+msgid "Stats"
+msgstr "Статистика"
+
+#: src/Admin/Admin.php:553
+msgid "This operation will delete all cached thumbnails and cannot be undone."
+msgstr "Эта операция удалит все кешированные миниатюры и не может быть отменена."
+
+#: src/Admin/Admin.php:550
+msgid "This operation will delete all stored info from WordPress Popular Posts' data tables and cannot be undone."
+msgstr "Эта операция удалит все сохранённые данные плагина WordPress Popular Posts и не может быть отменена."
+
+#: src/Admin/Admin.php:556
+msgid "Do you want to continue?"
+msgstr "Вы хотите продолжить?"
+
+#: src/Admin/Admin.php:547
+msgid "This operation will delete all entries from WordPress Popular Posts' cache table and cannot be undone."
+msgstr "Эта операция удалит все записи из таблицы кэша WordPress Popular Posts и не может быть отменена."
+
+#: src/Admin/admin-page.php:55
+msgid "Please provide the name of your custom field."
+msgstr "Пожалуйста, укажите название вашего пользовательского поля."
+
+#: src/Admin/admin-page.php:32 src/Admin/admin-page.php:44
+#: src/Admin/admin-page.php:77 src/Admin/admin-page.php:109
+msgid "Settings saved."
+msgstr "Настройки сохранены."

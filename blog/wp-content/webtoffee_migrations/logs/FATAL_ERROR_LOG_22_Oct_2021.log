@@ -1,0 +1,23 @@
+10-22-2021 @ 11:04:10 - Uncaught Error: Class 'wp_bootstrap_navwalker' not found in /var/www/clients/client0/web1/web/moodle/blog/wp-content/themes/head-blog/template-parts/template-part-topnav.php:50
+Stack trace:
+#0 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/template.php(772): require()
+#1 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/template.php(716): load_template()
+#2 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/clients/client0/web1/web/moodle/blog/wp-content/themes/head-blog/header.php(22): get_template_part()
+#4 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/template.php(770): require_once('/var/www/client...')
+#5 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/template.php(716): load_template()
+#6 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/general-template.php(48): locate_template()
+#7 /var/www/clients/client0/web1/web/moodle/blog/wp-content/themes/head-blog/single.php(1): get_header()
+#8 /var/ in /var/www/clients/client0/web1/web/moodle/blog/wp-content/themes/head-blog/template-parts/template-part-topnav.php on line 50
+10-22-2021 @ 11:09:04 - Uncaught Error: Class 'wp_bootstrap_navwalker' not found in /var/www/clients/client0/web1/web/moodle/blog/wp-content/themes/head-blog/template-parts/template-part-topnav.php:50
+Stack trace:
+#0 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/template.php(772): require()
+#1 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/template.php(716): load_template()
+#2 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/clients/client0/web1/web/moodle/blog/wp-content/themes/head-blog/header.php(22): get_template_part()
+#4 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/template.php(770): require_once('/var/www/client...')
+#5 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/template.php(716): load_template()
+#6 /var/www/clients/client0/web1/web/moodle/blog/wp-includes/general-template.php(48): locate_template()
+#7 /var/www/clients/client0/web1/web/moodle/blog/wp-content/themes/head-blog/single.php(1): get_header()
+#8 /var/ in /var/www/clients/client0/web1/web/moodle/blog/wp-content/themes/head-blog/template-parts/template-part-topnav.php on line 50
+10-22-2021 @ 11:09:04 - syntax error, unexpected end of file, expecting '(' in /var/www/clients/client0/web1/web/moodle/blog/wp-content/themes/head-blog/functions.php on line 299
