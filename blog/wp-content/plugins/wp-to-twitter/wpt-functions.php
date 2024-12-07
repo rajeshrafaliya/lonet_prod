@@ -62,7 +62,7 @@ function wpt_selected( $field, $value, $type = 'select' ) {
 }
 
 /**
- * Insert a Tweet record into logs.
+ * Insert a status update record into logs.
  *
  * @param string $data Option key.
  * @param int    $id Post ID.
@@ -83,7 +83,7 @@ function wpt_set_log( $data, $id, $message, $http = '200' ) {
 }
 
 /**
- * Get information from Tweet logs.
+ * Get information from status update logs.
  *
  * @param string $data Option key.
  * @param int    $id Post ID.
@@ -111,7 +111,19 @@ function wpt_check_functions() {
 	$testurl  = get_bloginfo( 'url' );
 	$testpost = false;
 	$title    = urlencode( 'Your blog home' );
-	$shrink   = apply_filters( 'wptt_shorten_link', $testurl, $title, false, true );
+	/**
+	 * Filter the URL passed when running a test function.
+	 *
+	 * @hook wptt_shorten_link
+	 *
+	 * @param {string}   $testurl Unshortened test URL.
+	 * @param {string}   $title Title text to use for URL shortener.
+	 * @param {int|bool} $post_ID Post ID. Default false.
+	 * @param {bool}     $testing In testing mode. Default true.
+	 *
+	 * @return {string}
+	 */
+	$shrink = apply_filters( 'wptt_shorten_link', $testurl, $title, false, true );
 	if ( false === $shrink ) {
 		$error    = htmlentities( get_option( 'wpt_shortener_status' ) );
 		$message .= '<li class="error"><strong>' . __( 'XPoster was unable to contact your selected URL shortening service.', 'wp-to-twitter' ) . '</strong></li>';
@@ -124,8 +136,8 @@ function wpt_check_functions() {
 		$message .= '<li><strong>' . __( "XPoster successfully contacted your URL shortening service.</strong>  This link should point to your site's homepage:", 'wp-to-twitter' );
 		$message .= " <a href='$shrink'>$shrink</a></li>";
 	}
-	// check twitter & mastodon credentials.
-	if ( wtt_oauth_test() || wpt_mastodon_connection() ) {
+	// check social network credentials.
+	if ( wtt_oauth_test() || wpt_mastodon_connection() || wpt_bluesky_connection() ) {
 		$rand     = wp_rand( 1000000, 9999999 );
 		$testpost = wpt_post_to_service( "This is a test of XPoster. $shrink ($rand)" );
 		if ( $testpost && ! empty( $testpost ) ) {
@@ -136,6 +148,9 @@ function wpt_check_functions() {
 				if ( 'mastodon' === $key ) {
 					$message .= '<li><strong>' . __( 'XPoster successfully submitted a status update to your Mastodon instance.', 'wp-to-twitter' ) . '</strong></li>';
 				}
+				if ( 'bluesky' === $key ) {
+					$message .= '<li><strong>' . __( 'XPoster successfully submitted a status update to your Bluesky account.', 'wp-to-twitter' ) . '</strong></li>';
+				}
 			}
 		} else {
 			$error    = wpt_get_log( 'wpt_status_message', 'test' );
@@ -143,7 +158,7 @@ function wpt_check_functions() {
 			$message .= "<li class='error'>$error</li>";
 		}
 	} else {
-		$message .= '<strong>' . __( 'You have not connected WordPress to X.com or Mastodon.', 'wp-to-twitter' ) . '</strong> ';
+		$message .= '<strong>' . __( 'You have not connected WordPress to a supported service.', 'wp-to-twitter' ) . '</strong> ';
 	}
 	if ( false === $testpost && false === $shrink ) {
 		$message .= '<li class="error">' . __( "<strong>Your server does not appear to support the required methods for XPoster to function.</strong> You can try it anyway - these tests aren't perfect.", 'wp-to-twitter' ) . '</li>';
@@ -166,16 +181,33 @@ function wpt_settings_tabs() {
 	$default  = ( '' === $username || false === $username ) ? 'connection' : 'basic';
 	$current  = ( isset( $_GET['tab'] ) ) ? sanitize_text_field( $_GET['tab'] ) : $default;
 	$pro_text = ( function_exists( 'wpt_pro_exists' ) ) ? __( 'Pro Settings', 'wp-to-twitter' ) : __( 'XPoster PRO', 'wp-to-twitter' );
-	$pages    = array(
-		'connection' => __( 'X Connection', 'wp-to-twitter' ),
-		'mastodon'   => __( 'Mastodon API', 'wp-to-twitter' ),
-		'basic'      => __( 'Basic Settings', 'wp-to-twitter' ),
+
+	$yes         = '<span class="dashicons dashicons-yes" aria-label="Connected"></span>';
+	$no          = '<span class="dashicons dashicons-no" aria=label="Unconnected"></span>';
+	$x_connected = ( wtt_oauth_test() ) ? $yes : $no;
+	$m_connected = ( wpt_mastodon_connection() ) ? $yes : $no;
+	$b_connected = ( wpt_bluesky_connection() ) ? $yes : $no;
+	$pages       = array(
+		'connection' => __( 'X', 'wp-to-twitter' ) . $x_connected,
+		'mastodon'   => __( 'Mastodon', 'wp-to-twitter' ) . $m_connected,
+		'bluesky'    => __( 'Bluesky', 'wp-to-twitter' ) . $b_connected,
+		'basic'      => __( 'Settings', 'wp-to-twitter' ),
 		'shortener'  => __( 'URL Shortener', 'wp-to-twitter' ),
 		'advanced'   => __( 'Advanced Settings', 'wp-to-twitter' ),
 		'support'    => __( 'Get Help', 'wp-to-twitter' ),
 		'pro'        => $pro_text,
 	);
 
+	/**
+	 * Filter the array of tabs representings settings pages.
+	 *
+	 * @hook wpt_settings_tabs_pages
+	 *
+	 * @param {array}  $pages Array of pages with `[ 'key' => 'title' ]`.
+	 * @param {string} $current Array key of current page.
+	 *
+	 * @return {array}
+	 */
 	$pages     = apply_filters( 'wpt_settings_tabs_pages', $pages, $current );
 	$admin_url = admin_url( 'admin.php?page=wp-tweets-pro' );
 
@@ -207,19 +239,19 @@ function wpt_mask_attr( $value ) {
 }
 
 /**
- * Show the last Tweet attempt as admin notice.
+ * Show the last status update attempt as admin notice.
  */
-function wpt_show_last_tweet() {
+function wpt_show_last_update() {
 	/**
 	 * Disable the admin notice that shows the last sent update.
 	 *
-	 * @hook wpt_show_last_tweet
+	 * @hook wpt_show_last_update
 	 *
 	 * @param {bool} $show true to show; false to hide.
 	 *
 	 * @return {bool}
 	 */
-	if ( apply_filters( 'wpt_show_last_tweet', true ) ) {
+	if ( apply_filters( 'wpt_show_last_update', true ) ) {
 		$log = wpt_get_log( 'wpt_status_message', 'last' );
 		if ( ! empty( $log ) && is_array( $log ) ) {
 			$post_ID = $log[0];
@@ -245,7 +277,7 @@ function wpt_show_last_tweet() {
 }
 
 /**
- * Handle Tweet & URL shortener errors.
+ * Handle Update & URL shortener errors.
  */
 function wpt_handle_errors() {
 	if ( isset( $_POST['submit-type'] ) && 'clear-error' === $_POST['submit-type'] ) {
@@ -254,7 +286,7 @@ function wpt_handle_errors() {
 	if ( '1' === get_option( 'wp_url_failure' ) ) {
 		$admin_url = admin_url( 'admin.php?page=wp-tweets-pro' );
 		$nonce     = wp_nonce_field( 'wp-to-twitter-nonce', '_wpnonce', true, false ) . wp_referer_field( false );
-		$error     = '<div class="error"><p>' . __( 'The query to the URL shortener API failed, and your URL was not shrunk. The full post URL was attached to your Tweet. Check with your URL shortening provider to see if there are any known issues.', 'wp-to-twitter' ) .
+		$error     = '<div class="error"><p>' . __( 'The query to the URL shortener API failed, and your URL was not shrunk. The full post URL was attached to your status update. Check with your URL shortening provider to see if there are any known issues.', 'wp-to-twitter' ) .
 			'</p><form method="post" action="' . $admin_url . '">
 				<div>
 					<input type="hidden" name="submit-type" value="clear-error"/>
@@ -304,7 +336,7 @@ function wpt_cap_checkbox( $role, $cap, $name ) {
  *
  * @param string  $subject Subject of error.
  * @param string  $body Body of error.
- * @param int     $post_ID ID of Post being Tweeted.
+ * @param int     $post_ID ID of Post being shared.
  * @param boolean $override Send message if debug disabled.
  */
 function wpt_mail( $subject, $body, $post_ID = false, $override = false ) {
@@ -323,7 +355,7 @@ function wpt_mail( $subject, $body, $post_ID = false, $override = false ) {
  *
  * @param string $subject Subject of error.
  * @param string $body Body of error.
- * @param int    $post_ID ID of post being Tweeted.
+ * @param int    $post_ID ID of post being shared.
  */
 function wpt_debug_log( $subject, $body, $post_ID ) {
 	if ( ! $post_ID ) {
@@ -355,7 +387,7 @@ function wpt_show_debug() {
 				$date     = date_i18n( 'Y-m-d H:i:s', $datetime );
 				$subject  = $entry[1];
 				$body     = $entry[2];
-				$records .= "<li><button type='button' class='toggle-debug button-secondary' aria-expanded='false'><strong>$date</strong><br />" . esc_html( $subject ) . "</button><pre class='wpt-debug-details'>" . esc_html( $body ) . '</pre></li>';
+				$records .= "<li><button type='button' class='toggle-debug button-secondary' aria-expanded='false'><div><strong>$date</strong><br />" . esc_html( $subject ) . "</div><span class='dashicons dashicons-plus' aria-hidden='true'></span></button><pre class='wpt-debug-details'>" . esc_html( $body ) . '</pre></li>';
 			}
 		}
 		$script = "
@@ -387,9 +419,9 @@ function wpt_show_debug() {
 /**
  * Send a remote query expecting JSON.
  *
- * @param string $url Target URL.
- * @param array  $args JSON decode arguments if not default.
- * @param string $method Query method.
+ * @param string    $url Target URL.
+ * @param null|bool $args JSON decode arguments if not default.
+ * @param string    $method Query method.
  * @throws Exception JSON error string.
  *
  * @return JSON object.
@@ -547,11 +579,10 @@ if ( ! function_exists( 'mb_strrpos' ) ) {
 	 * @param string $haystack String.
 	 * @param string $needle String.
 	 * @param int    $offset integer: optional start position.
-	 * @param string $encoding Character encoding expected.
 	 *
 	 * @return int
 	 */
-	function mb_strrpos( $haystack, $needle, $offset = 0, $encoding ) {
+	function mb_strrpos( $haystack, $needle, $offset = 0 ) {
 		$needle = preg_quote( $needle, '/' );
 
 		$ar = array();
@@ -604,7 +635,17 @@ function wtt_option_selected( $field, $value, $type = 'checkbox' ) {
  * @return integer (boolean)
  */
 function wpt_post_is_new( $modified, $postdate ) {
-	// Default allows up to a 10 second discrepancy for slow processing.
+	/**
+	 * Filter the sensitivity used to distinguish between new posts and edits.
+	 * Default allows up to a 10 second discrepancy in time stamps where post will be treated as new.
+	 * This is necessary because the post date and modified date can sometimes different by a second on any server.
+	 *
+	 * @hook wpt_edit_sensitivity
+	 *
+	 * @param {int} $sensitivity Integer representing seconds. Default 10.
+	 *
+	 * @return {int}
+	 */
 	$modifier  = apply_filters( 'wpt_edit_sensitivity', 10 ); // alter time in seconds to modified date.
 	$mod_date  = strtotime( $modified );
 	$post_date = strtotime( $postdate ) + $modifier;
@@ -623,16 +664,26 @@ function wpt_post_is_new( $modified, $postdate ) {
  * @return mixed boolean|integer Attachment ID.
  */
 function wpt_post_attachment( $post_ID ) {
-	$return             = false;
+	$attachment_id = false;
+	/**
+	 * Filter whether a post should use its featured image to post with a status update.
+	 *
+	 * @hook wpt_use_featured_image
+	 *
+	 * @param {bool} $use True to use the featured image.
+	 * @param {int}  $post_ID Post ID.
+	 *
+	 * @return {bool}
+	 */
 	$use_featured_image = apply_filters( 'wpt_use_featured_image', true, $post_ID );
 	if ( has_post_thumbnail( $post_ID ) && $use_featured_image ) {
 		$attachment = get_post_thumbnail_id( $post_ID );
-		// X.com API endpoint does not accept GIFs.
+		// X.com & Bluesky API endpoints do not accept GIFs.
 		if ( wp_attachment_is( 'gif', $attachment ) ) {
 			return false;
 		}
 
-		$return = $attachment;
+		$attachment_id = $attachment;
 	} else {
 		$args        = array(
 			'post_type'      => 'attachment',
@@ -644,13 +695,22 @@ function wpt_post_attachment( $post_ID ) {
 		);
 		$attachments = get_posts( $args );
 		if ( $attachments ) {
-			$return = $attachments[0]->ID; // Return the first attachment.
+			$attachment_id = $attachments[0]->ID; // Return the first attachment.
 		} else {
-			$return = false;
+			$attachment_id = false;
 		}
 	}
-
-	return apply_filters( 'wpt_post_attachment', $return, $post_ID );
+	/**
+	 * Filter the attachment ID to post with a status update.
+	 *
+	 * @hook wpt_post_attachment
+	 *
+	 * @param {int} $attachment_id Attachment ID.
+	 * @param {int} $post_ID Post ID.
+	 *
+	 * @return {int|bool}
+	 */
+	return apply_filters( 'wpt_post_attachment', $attachment_id, $post_ID );
 }
 
 /**
@@ -828,6 +888,10 @@ function wpt_faq() {
 			'question' => __( "I'm receiving a '401 Unauthorized' error from X.com, but my credentials haven't changed. What should I do?", 'wp-to-twitter' ),
 			'answer'   => __( 'First, check and see whether your app has been suspended in your X.com developer account. If it has, see above. If not, this is most likely a temporary problem in the X.com API; but you can try generating new keys and secrets in your developer account and re-connect your app. Some users have also been successful by changing their account status to the free account. (Older accounts may have a legacy status that is not handled well by X.com.)', 'wp-to-twitter' ),
 		),
+		array(
+			'question' => __( "I'm receiving a '429 Too Many Requests' error from X.com. What should I do?", 'wp-to-twitter' ),
+			'answer'   => __( 'X.com changed their free API usage limits in October 2024, reducing them from 1500 per month to 500 per month, with a maximum allowance of 17 per day. This change significantly increases the likelihood that you will exceed the allowed API usage on the free account. Your only option is to upgrade to an alternate API tier; this is not included in a Premium X.com account.', 'wp-to-twitter' ),
+		),
 	);
 
 	echo '<h2>' . __( 'Frequently Asked Questions', 'wp-to-twitter' ) . '</h2>';
@@ -839,20 +903,45 @@ function wpt_faq() {
 }
 
 /**
- * Check whether a file is writable.
+ * Check whether an image has a valid mime type for a service.
  *
- * @param string $file Filename/path.
+ * @param int    $attachment_id Attachment ID.
+ * @param string $service Service name (lowercase).
  *
- * @return boolean.
+ * @return bool
  */
-function wpt_is_writable( $file ) {
-	if ( function_exists( 'wp_is_writable' ) ) {
-		$is_writable = wp_is_writable( $file );
-	} else {
-		$is_writable = is_writeable( $file );
+function wpt_check_mime_type( $attachment_id, $service ) {
+	$return           = false;
+	$valid_mime_types = array(
+		'x'        => array(
+			'image/jpeg',
+			'image/png',
+			'image/gif',
+			'image/webp',
+		),
+		'bluesky'  => array(
+			'image/jpeg',
+			'image/png',
+			'image/webp',
+			'image/heic',
+		),
+		'mastodon' => array(
+			'image/jpeg',
+			'image/png',
+			'image/webp',
+			'image/heic',
+			'image/avif',
+			'image/gif',
+		),
+	);
+
+	$allowed   = $valid_mime_types[ $service ];
+	$mime_type = get_post_mime_type( $attachment_id );
+	if ( in_array( $mime_type, $allowed, true ) ) {
+		$return = true;
 	}
 
-	return $is_writable;
+	return $return;
 }
 
 /**
@@ -888,6 +977,15 @@ add_action( 'dp_duplicate_page', 'wpt_delete_copied_meta', 10, 2 );
  * @param object $post Old Post.
  */
 function wpt_delete_copied_meta( $new_id, $post ) {
+	/**
+	 * Filter to allow Duplicate Posts plugin to copy XPoster meta data when a post is duplicated.
+	 *
+	 * @hook wpt_allow_copy_meta
+	 *
+	 * @param {bool} $disable True to allow meta to be copied. Default false.
+	 *
+	 * @return {bool}
+	 */
 	$disable = apply_filters( 'wpt_allow_copy_meta', false );
 	if ( $disable ) {
 		return;
@@ -899,77 +997,4 @@ function wpt_delete_copied_meta( $new_id, $post ) {
 	delete_post_meta( $new_id, '_jd_wp_twitter' );
 	delete_post_meta( $new_id, '_jd_twitter' );
 	delete_post_meta( $new_id, '_wpt_failed' );
-}
-
-/**
- * Provide aliases for changed function names if plug-ins or themes are calling XPoster functions in custom code. Deprecated.
- *
- * @param string $url Query url.
- * @param string $method Method.
- * @param string $body Body.
- * @param string $headers Headers.
- * @param string $return_type Return data.
- *
- * @return data.
- */
-function jd_fetch_url( $url, $method = 'GET', $body = '', $headers = '', $return_type = 'body' ) {
-	return wpt_fetch_url( $url, $method, $body, $headers, $return_type );
-}
-
-/**
- * Alias for remote_json. Deprecated.
- *
- * @param string $url Query url.
- * @param array  $query_args Arguments sent to remote query.
- *
- * @return remote JSON.
- */
-function jd_remote_json( $url, $query_args = true ) {
-	return wpt_remote_json( $url, $query_args );
-}
-
-/**
- * Send a Tweet for a new link.
- *
- * @param int $link_id Link ID.
- *
- * @return twit link.
- */
-function jd_twit_link( $link_id ) {
-	return wpt_twit_link( $link_id );
-}
-
-/**
- * Get post data.
- *
- * @param int $post_ID Post ID.
- *
- * @return Array post data.
- */
-function jd_post_info( $post_ID ) {
-	return wpt_post_info( $post_ID );
-}
-
-/**
- * Sent post tweet.
- *
- * @param int    $post_ID Post ID.
- * @param string $type Type of post.
- *
- * @return tweet
- */
-function jd_twit( $post_ID, $type = 'instant' ) {
-	return wpt_tweet( $post_ID, $type );
-}
-
-/**
- * Update oauth settings.
- *
- * @param mixed boolean/int   $auth Author ID.
- * @param mixed boolean/array $post POST data.
- *
- * @return update.
- */
-function jd_update_oauth_settings( $auth = false, $post = false ) {
-	return wpt_update_oauth_settings( $auth, $post );
 }

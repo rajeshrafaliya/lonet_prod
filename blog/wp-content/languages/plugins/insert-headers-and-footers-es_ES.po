@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WPCode &#8211; Insert Headers and Footers + Custom Code Snippets &#8211; WordPress Code Manager - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-26 16:34:53+0000\n"
+"PO-Revision-Date: 2024-11-13 17:31:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,55 +11,215 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: Plugins - WPCode &#8211; Insert Headers and Footers + Custom Code Snippets &#8211; WordPress Code Manager - Stable (latest release)\n"
 
+#: includes/lite/conditional-logic/class-wpcode-conditional-edd.php:63
+msgid "Confirmation Page"
+msgstr "Página de confirmación"
+
+#: includes/class-wpcode-snippet-execute.php:154
+msgid "Write SCSS styles directly in WPCode and easily customize how your website looks."
+msgstr "Escribe estilos SCSS directamente en WPCode y personaliza fácilmente el aspecto de tu sitio web."
+
+#: includes/class-wpcode-snippet-execute.php:152
+msgid "SCSS Snippet (PRO)"
+msgstr "Fragmento de código SCSS (PRO)"
+
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1718
+msgid "Upgrade to PRO today and unlock editing snippets using SCSS code with optimized compiling directly in the WordPress admin."
+msgstr "Actualiza a PRO hoy y accede a la edición de fragmentos de código usando código CSS con compilación optimizada directamente en la administración de WordPress"
+
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1717
+msgid "SCSS snippets is a Pro Feature"
+msgstr "Los fragmentos de código SCSS son una característica PRO"
+
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:199
+msgid "Your changes are saved but your snippet was deactivated due to an error, please check the syntax and try again."
+msgstr "Tus cambios se han guardado pero tu fragmento de código se desactivó debido a un error. Por favor, revisa la sintaxis e inténtalo de nuevo."
+
+#: includes/admin/admin-scripts.php:55
+msgid "WPCode Lite users get"
+msgstr "Los usuarios de WPCode Lite tienen"
+
+#: includes/admin/admin-scripts.php:54
+msgid "regular price, automatically applied at checkout."
+msgstr "precio normal, aplicado automáticamente al finalizar la compra"
+
+#: includes/admin/admin-scripts.php:53
+msgid "$50 off"
+msgstr "50$ de descuento"
+
+#: includes/admin/admin-scripts.php:52
+msgid "Bonus"
+msgstr "Bonificación"
+
+#: includes/admin/admin-scripts.php:50
+msgid "Already Purchased?"
+msgstr "¿Ya lo has comprado?"
+
 #: includes/conditional-logic/class-wpcode-conditional-page.php:125
 msgid "Upgrade today to create conditional logic rules for specific pages or posts."
 msgstr "Actualiza hoy para crear reglas lógicas condicionales para páginas o entradas específicas."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:83
+#: includes/class-wpcode-snippet-execute.php:169
+msgid "Start writing HTML and add PHP code like you would in a .php file with Universal snippets."
+msgstr "Empieza a escribir HTML y añade código PHP como lo harías en un archivo .php con fragmentos de códigos universales."
+
+#: includes/class-wpcode-snippet-execute.php:164
+msgid "Extend or add functionality using PHP code with full control on where it's executed"
+msgstr "Amplía o añade funcionalidades utilizando código PHP con control total sobre dónde se ejecuta"
+
+#: includes/class-wpcode-snippet-execute.php:159
+msgid "Add custom JavaScript code to your site to add interactivity or integrate with other services."
+msgstr "Añade código JavaScript personalizado a tu sitio para añadir interactividad o integrarlo con otros servicios."
+
+#: includes/class-wpcode-snippet-execute.php:148
+msgid "Write CSS styles directly in WPCode and easily customize how your website looks."
+msgstr "Escribe estilos CSS directamente en WPCode y personaliza fácilmente el aspecto de tu sitio web."
+
+#: includes/class-wpcode-snippet-execute.php:143
+msgid "Use the Block Editor to create components that you can insert anywhere in your site."
+msgstr "Utiliza el editor de bloques para crear componentes que puedas insertar en cualquier parte de tu sitio."
+
+#: includes/class-wpcode-snippet-execute.php:137
+msgid "Create reusable text snippets that you can visually format in a familiar editor."
+msgstr "Crea fragmentos de texto reutilizables que puedes formatear visualmente en un editor familiar."
+
+#: includes/class-wpcode-snippet-execute.php:131
+msgid "Easily insert scripts from other sites or build custom elements using HTML."
+msgstr "Inserta fácilmente scripts de otros sitios o construye elementos personalizados utilizando HTML."
+
+#: includes/admin/pages/trait-wpcode-my-library-markup.php:244
+msgid "Update snippets across all your sites"
+msgstr "Actualiza los fragmentos en todos tus sitios"
+
+#: includes/admin/pages/trait-wpcode-my-library-markup.php:243
+msgid "Deploy new snippets from your account"
+msgstr "Despliega nuevos fragmentos desde tu cuenta"
+
+#: includes/admin/pages/trait-wpcode-my-library-markup.php:242
+msgid "1-click import snippets from you library"
+msgstr "Importa fragmentos de tu biblioteca con un sólo clic"
+
+#: includes/admin/pages/trait-wpcode-my-library-markup.php:241
+msgid "Save your snippets to your library"
+msgstr "Guarda tus fragmentos de código en tu biblioteca"
+
+#: includes/admin/pages/class-wpcode-admin-page.php:1119
+msgid "Edit in Library"
+msgstr "Editar en la biblioteca"
+
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:562
+msgid "Select the code type for your snippet:"
+msgstr "Selecciona el tipo de código para tu fragmento de código:"
+
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:453
+msgid "You don't have any plugins installed that extend the WPCode library, install any of the plugins below to start expanding the WPCode snippet library:"
+msgstr "Si no tienes instalado ningún plugin que amplíe la biblioteca WPCode, instala cualquiera de los siguientes plugins para empezar a ampliar la biblioteca de fragmentos de código de WPCode:"
+
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:443
+msgid "Easily add code snippets that extend other plugins on your site from a library maintained by the plugin authors."
+msgstr "Añade fácilmente fragmentos de código que amplíen otros plugins de tu sitio desde una biblioteca mantenida por los autores del plugin."
+
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:413
+msgid "Create custom snippets for your website easily by filling out a form. You can also use this form to update your snippets later, without having to write or edit any code."
+msgstr "Crea fácilmente fragmentos personalizados para tu sitio web rellenando un formulario. También puedes utilizar este formulario para actualizar tus fragmentos más tarde, sin tener que escribir o editar ningún código."
+
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:381
+msgid "Plugin Snippets"
+msgstr "Fragmentos de código de plugins"
+
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:378
+msgid "Snippet Generators"
+msgstr "Generadores de fragmentos de código"
+
+#: includes/admin/pages/class-wpcode-admin-page-duplicator.php:146
+msgid "Please ask your website administrator to install Duplicator."
+msgstr "Pide al administrador de tu sitio web que instale Duplicator."
+
+#: includes/admin/pages/class-wpcode-admin-page-duplicator.php:102
+msgid "1-Click Restore."
+msgstr "Restauración con un clic."
+
+#: includes/admin/pages/class-wpcode-admin-page-duplicator.php:101
+msgid "Cloud Storage."
+msgstr "Almacenamiento en la nube."
+
+#: includes/admin/pages/class-wpcode-admin-page-duplicator.php:100
+msgid "Website Cloning."
+msgstr "Clonación de sitios web."
+
+#: includes/admin/pages/class-wpcode-admin-page-duplicator.php:99
+msgid "Secure Backups."
+msgstr "Copias de seguridad seguras."
+
+#: includes/admin/pages/class-wpcode-admin-page-duplicator.php:93
+msgid "Duplicator Screenshot"
+msgstr "Captura de pantalla de Duplicator"
+
+#: includes/admin/pages/class-wpcode-admin-page-duplicator.php:88
+msgid "Easy, Fast and Secure WordPress Backups and Website Migration. Join 1,500,000+ professionals who trust Duplicator. No Code Required."
+msgstr "Copias de seguridad y migración de sitios web de WordPress fáciles, rápidas y seguras. Únete a más de 1.500.000 profesionales que confían en Duplicator. No necesitas código."
+
+#: includes/admin/class-wpcode-suggested-plugins.php:122
+msgid "Start accepting one-time and recurring payments on your WordPress site without setting up a shopping cart."
+msgstr "Empieza a aceptar pagos únicos y recurrentes en tu sitio WordPress sin necesidad de configurar un carrito de la compra."
+
+#: includes/admin/class-wpcode-suggested-plugins.php:112
+msgid "Raise more money for your cause with the most powerful WordPress donation and fundraising plugin."
+msgstr "Recauda más dinero para tu causa con el plugin de donaciones y recaudación de fondos para WordPress más potente."
+
+#: includes/admin/class-wpcode-suggested-plugins.php:102
+msgid "The easiest way to sell digital products with WordPress."
+msgstr "La forma más fácil de vender productos digitales con WordPress."
+
+#: includes/admin/class-wpcode-code-editor.php:67
+msgid "The PHP constant DISALLOW_UNFILTERED_HTML is currently defined, which is preventing WPCode from saving code accurately. Please contact your webmaster for assistance in disabling this restriction."
+msgstr "La constante PHP DISALLOW_UNFILTERED_HTML está actualmente definida, lo que impide que WPCode guarde el código con precisión. Ponte en contacto con tu webmaster para que te ayude a desactivar esta restricción."
+
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:99
 msgid "Insert snippet after 80% of the post content."
 msgstr "Inserta el fragmento de código después del 80% del contenido de la entrada."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:82
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:98
 msgid "Insert after 80%"
 msgstr "Insertar después del 80%"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:79
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:95
 msgid "Insert snippet after the second third of the post content."
 msgstr "Inserta el fragmento de código después del segundo tercio del contenido de la entrada."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:78
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:94
 msgid "Insert after second Third (66%)"
 msgstr "Insertar después del segundo tercio (66%)"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:75
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:91
 msgid "Insert snippet after the first third of the post content."
 msgstr "Inserta el fragmento de código después del primer tercio del contenido de la entrada."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:74
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:90
 msgid "Insert after first Third (33%)"
 msgstr "Insertar después del primer tercio (33%)"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:71
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:87
 msgid "Insert snippet after the third quarter of the post content."
 msgstr "Inserta el fragmento de código después del tercer cuarto del contenido de la entrada."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:70
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:86
 msgid "Insert after 3rd Quarter (75%)"
 msgstr "Insertar después del 3er cuarto (75%)"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:67
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:83
 msgid "Insert snippet after the first quarter of the post content."
 msgstr "Inserta el fragmento de código después del primer cuarto del contenido de la entrada."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:66
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:82
 msgid "Insert after first Quarter (25%)"
 msgstr "Insertar después del primer cuarto (25%)"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:63
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:79
 msgid "Insert snippet in the middle of the post content."
 msgstr "Inserta el fragmento de código en el medio del contenido de la entrada."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:62
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:78
 msgid "Insert in the Middle of the Content"
 msgstr "Insertar en medio del contenido"
 
@@ -244,21 +404,21 @@ msgstr "Reemplaza texto en toda tu base de datos o medios subidos en un solo plu
 msgid "Easy, Fast and Secure WordPress and Website Migration."
 msgstr "Migración de sitios web y WordPress fácil, rápido y seguro."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2366
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2374
 msgid "Use AI to improve your snippet by describing the changes you want"
 msgstr "Utiliza la IA para mejorar tu fragmento de código describiendo los cambios que deseas"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1742
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1750
 msgid "Upgrade today to access the WPCode AI code generator, which allows you to create code snippets simply by describing their functionality using the power of AI."
 msgstr "Mejora hoy para acceder al generador de código WPCode AI, que te permite crear fragmentos de código simplemente describiendo su funcionalidad utilizando el poder de la IA."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1741
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1749
 msgid "Improving Snippets with AI is a Pro Feature"
 msgstr "Mejorar los fragmentos con IA es una función Pro"
 
 #. Translators: The name of the user that is currently editing the snippet is
 #. appended at the end.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1740
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1748
 msgid "AI Snippet Generation is a Pro Feature"
 msgstr "La generación de fragmentos de código con IA es una función Pro"
 
@@ -355,52 +515,52 @@ msgstr "Las reglas de localización son una característica Pro"
 msgid "Country"
 msgstr "País"
 
-#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:36
-msgid "Site wide (frontend)"
-msgstr "En todo el sitio (frontend)"
+#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:49
+msgid "Site Wide (Frontend)"
+msgstr "En todo el sitio (portada)"
 
-#: includes/auto-insert/class-wpcode-auto-insert-admin.php:38
+#: includes/auto-insert/class-wpcode-auto-insert-admin.php:58
 msgid "Insert snippet in the wp-admin footer."
 msgstr "Inserta el fragmento de código en el pie de página de wp-admin."
 
-#: includes/auto-insert/class-wpcode-auto-insert-admin.php:37
+#: includes/auto-insert/class-wpcode-auto-insert-admin.php:57
 msgid "Admin footer"
 msgstr "Pie de página de la administración"
 
-#: includes/auto-insert/class-wpcode-auto-insert-admin.php:34
+#: includes/auto-insert/class-wpcode-auto-insert-admin.php:54
 msgid "Insert snippet in the wp-admin header area."
 msgstr "Inserta el fragmento de código en el área de cabecera de wp-admin."
 
-#: includes/auto-insert/class-wpcode-auto-insert-admin.php:33
+#: includes/auto-insert/class-wpcode-auto-insert-admin.php:53
 msgid "Admin header"
 msgstr "Cabecera de la administración"
 
-#: includes/auto-insert/class-wpcode-auto-insert-admin.php:30
-msgid "Admin area"
+#: includes/auto-insert/class-wpcode-auto-insert-admin.php:42
+msgid "Admin Area"
 msgstr "Área de administración"
 
 #: includes/class-wpcode-smart-tags.php:92
 msgid "Permalink"
 msgstr "Enlace permanente"
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:64
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:87
 msgid "Execute this snippet on demand or programmatically just when you need it."
 msgstr "Ejecuta este fragmento de código a petición o mediante programación justo cuando lo necesites."
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:63
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:86
 msgid "On Demand"
 msgstr "Bajo demanda"
 
 #. Translators: %1$s is the opening link tag, %2$s is the closing link tag.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1271
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1269
 msgid "For your protection, we blocked the addition of certain types of code that could compromise your website's security. If you believe this is in error or need assistance, please %1$scontact our support team%2$s."
 msgstr "Para tu protección, hemos bloqueado la adición de ciertos tipos de código que podrían comprometer la seguridad de tu sitio web. Si crees que esto es un error o necesitas ayuda, por favor %1$scontacta con nuestro equipo de soporte%2$s."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1266
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1264
 msgid "Restricted Code Detected"
 msgstr "Código restringido detectado"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1212
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1211
 msgid "Execute Snippet Now"
 msgstr "Ejecutar fragmento de código ahora"
 
@@ -408,21 +568,21 @@ msgstr "Ejecutar fragmento de código ahora"
 msgid "Snippet updated & executed."
 msgstr "Fragmento de código actualizado y ejecutado."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1967
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1975
 msgid "Load as file"
 msgstr "Cargar como archivo"
 
 #. Translators: Link to the documentation article for files as snippets. %1$s
 #. is the opening anchor tag, %2$s is the closing anchor tag.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1954
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1962
 msgid "If enabled, this snippet will be loaded as a physical file instead of being inserted in the source of the page. %1$sLearn more%2$s."
 msgstr "Si se activa, este fragmento se cargará como un archivo físico en lugar de insertarse en el código fuente de la página. %1$sAprende más%2$s."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1715
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1723
 msgid "Upgrade to PRO today and unlock loading your CSS and JS snippets as files for better performance and improved compatibility with caching plugins."
 msgstr "Actualiza a PRO hoy mismo y desbloquea la carga de tus fragmentos CSS y JS como archivos para mejorar el rendimiento y la compatibilidad con los plugins de caché."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1714
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1722
 msgid "Load as file is a Pro Feature"
 msgstr "Cargar como archivo es una función Pro"
 
@@ -433,13 +593,13 @@ msgstr "%s está editando en este momento"
 
 #. Translators: The placeholder gets replaced with the display name of the user
 #. currently editing the snippet.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2209
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2217
 msgid "Notice: %1$s is also editing this snippet. Please be aware that your changes could be overwritten."
 msgstr "Aviso: %1$s también está editando este fragmento. Ten en cuenta que tus cambios podrían sobrescribirse."
 
 #. Translators: The name of the user that is currently editing the snippet is
 #. appended at the end.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1739
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1747
 msgid "This snippet is currently being edited by "
 msgstr "Este fragmento está siendo editado por "
 
@@ -509,27 +669,27 @@ msgstr "Tipo de navegador"
 msgid "Device"
 msgstr "Dispositivo"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:87
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:111
 msgid "Upgrade to PRO today and get access to automatic word-count based insert locations."
 msgstr "Actualízate a PRO hoy mismo y consigue acceso a ubicaciones de inserción automáticas basadas en el recuento de palabras."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:86
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:110
 msgid "Word-based content locations are a PRO feature"
 msgstr "La localización de contenidos por palabras es una característica PRO"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:59
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:75
 msgid "Insert snippet every # number of words."
 msgstr "Inserta un fragmento de código cada # número de palabras."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:58
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:74
 msgid "Insert Every # Words"
 msgstr "Inserta cada # palabras"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:55
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:71
 msgid "Insert snippet after a minimum number of words."
 msgstr "Inserta el fragmento de código después de una cantidad mínima de palabras."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:54
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:70
 msgid "Insert After # Words"
 msgstr "Insertar después de # palabras"
 
@@ -660,23 +820,23 @@ msgstr "Cambia fácilmente a una versión anterior de tus scripts globales."
 msgid "Upgrade to WPCode Pro today and start tracking revisions and see exactly who, when and which changes were made to global Headers & Footers scripts."
 msgstr "Pásate a WPCode Pro hoy para comenzar a hacer un seguimiento de las revisiones y ver exactamente qué cambios se han realizado en tus scripts de cabecera y pie, quién los ha hecho y cuándo."
 
-#: includes/admin/pages/class-wpcode-admin-page.php:439
+#: includes/admin/pages/class-wpcode-admin-page.php:438
 msgid "Testing Mode"
 msgstr "Modo de pruebas"
 
-#: includes/admin/admin-scripts.php:56
+#: includes/admin/admin-scripts.php:62
 msgid "Learn more about Testing Mode"
 msgstr "Aprende más sobre el modo de pruebas"
 
-#: includes/admin/admin-scripts.php:53
+#: includes/admin/admin-scripts.php:59
 msgid "Upgrade to PRO today and make changes to your snippets, Header & Footer scripts or Page Scripts without affecting your live site. You choose when and what to publish to your visitors."
 msgstr "Actualiza a la versión PRO hoy mismo y haz cambios en tus fragmentos de código, scripts de cabecera y pie de página o scripts de página sin afectar en directo a tu sitio. Tú eliges cuándo y qué publicar para tus visitantes."
 
-#: includes/admin/admin-scripts.php:52
+#: includes/admin/admin-scripts.php:58
 msgid "Testing Mode is a Premium Feature"
 msgstr "El modo de pruebas es una característica premium"
 
-#: includes/class-wpcode-snippet-execute.php:495
+#: includes/class-wpcode-snippet-execute.php:568
 msgid "View Snippets With Errors"
 msgstr "Ver fragmentos de código con errores"
 
@@ -697,24 +857,24 @@ msgid "This snippet threw an error, you can see more details when editing the sn
 msgstr "Este fragmento de código lanzó un error, puedes ver más detalles editando este fragmento de código."
 
 #. Translators: The placeholders are for the link to the error logs.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2305
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2313
 msgid "You can %1$sview the error log%2$s to get more details about the error that caused this. The error will also be in a snippet-specific log whose name starts with snippet-%3$d (the id of this snippet)."
 msgstr "Puedes %1$sver el registro de errores%2$s para obtener más detalles sobre el error que ha provocado esto. El error también está en un registro específico de fragmentos de código cuyo nombre empieza con snippet-%3$d (el id de este fragmento de código)."
 
 #. Translators: The placeholders make the text bold and add the line number.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2280
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2288
 msgid "The error occurred on %1$sline %3$d%2$s of this snippet's code (highlighted below)."
 msgstr "El error ocurrión en la %1$slínea %3$d%2$s de este fragmento de código (resaltado abajo)."
 
 #. Translators: The placeholder is replaced with the URL where the error
 #. happened.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2294
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2302
 msgid "The error was triggered at the following URL: %1$s"
 msgstr "4El error se lanzó en la siguiente URL: %1$s"
 
 #. Translators: The placeholder gets replaced with the time passed since the
 #. snippet was deactivated.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2260
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2268
 msgid "This snippet first threw an error at %1$s on %2$s (%3$s ago)."
 msgstr "Este fragmento de código lanzó por primera vez un error a las %1$s el %2$s (hace %3$s)."
 
@@ -730,7 +890,7 @@ msgstr "Esta visualización lista tus fragmentos de código que lanzaron errores
 msgid "Gutenberg Block"
 msgstr "Bloque de Gutenberg"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1735
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1743
 msgid "The snippet has been recently deactivated due to an error on this line"
 msgstr "El fragmento de código se ha desactivado recientemente debido a un error en esta línea"
 
@@ -950,11 +1110,11 @@ msgstr "La regla de contenido del carrito de WooCommerce es una característica 
 msgid "WooCommerce Cart"
 msgstr "Carrito de WooCommerce"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:70
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:86
 msgid "Completely replace the HTML element specified by the CSS selector with the output of this snippet."
 msgstr "Reemplaza completamente el elemento HTML especificado por el selector CSS con la salida de este fragmento de código."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:69
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:85
 msgid "Replace HTML Element"
 msgstr "Reemplazar elemento HTML"
 
@@ -1160,20 +1320,20 @@ msgstr "ID del contenido"
 
 #. Translators: %1$s is the opening <code> tag, %2$s is the closing </code>
 #. tag.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1861
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1869
 msgid "Use this field to define the attribute name for your shortcode and click Add Attribute. Attributes added here will be available to use as smart tags and as variables inside snippets. E.g. an attribute named \"keyword\" will be available in a PHP snippet as %1$s$keyword%2$s. %3$sLearn more%4$s."
 msgstr "Utiliza este campo para definir el nombre del atributo para el shortcode y haz clic en añadir atributo. Los atributos añadidos aquí estarán disponibles para su uso como etiquetas inteligentes y como variables dentro de los fragmentos de código. Por ejemplo, un atributo llamado «palabra» estará disponible en un fragmento de código de PHP como %1$s$palabra%2$s. %3$s Más información%4$s."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1854
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1862
 msgid "Attribute name"
 msgstr "Nombre del atributo"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1850
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1858
 msgid "Add&nbsp;Attribute"
 msgstr "Añadir&nbsp;atributo"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1713
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1876
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1721
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1884
 msgid "Shortcode Attributes"
 msgstr "Atributos del shortcode"
 
@@ -1214,71 +1374,71 @@ msgstr "La página de normas de MemberPress es una característica Pro"
 msgid "MemberPress Page"
 msgstr "Página de MemberPress"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:85
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:109
 msgid "MemberPress Locations are a PRO feature"
 msgstr "Las ubicaciones de MemberPress son una característica PRO"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:82
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:98
 msgid "Insert a snippet after the notice that access to the content is unauthorized. "
 msgstr "Inserta un fragmento de código después del aviso de que el acceso al contenido no está autorizado. "
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:81
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:97
 msgid "After the Unauthorized Message"
 msgstr "Después del mensaje no autorizado"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:78
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:94
 msgid "Insert a snippet before the notice that access to the content is unauthorized. "
 msgstr "Inserta un fragmento de código antes del aviso de que el acceso al contenido no está autorizado. "
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:77
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:93
 msgid "Before the Unauthorized Message"
 msgstr "Antes del mensaje no autorizado"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:74
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:90
 msgid "Insert snippet before the Remember Me checkbox on the MemberPress Login page."
 msgstr "Inserta un fragmento de código antes de la casilla de verificación de recordarme en la página de inicio de sesión de MemberPress."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:73
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:89
 msgid "Before Login Form Submit"
 msgstr "Antes de enviar el formulario de inicio de sesión"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:70
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:86
 msgid "Insert snippet at the beginning of the Subscriptions tab on the MemberPress Account page."
 msgstr "Inserta un fragmento  de código al principio de la pestaña suscripciones en la página de la cuenta de MemberPress."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:69
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:85
 msgid "Before Subscriptions Content"
 msgstr "Antes del contenido de las suscripciones"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:66
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:82
 msgid "Insert snippet to the Home tab of the MemberPress Account page before First Name field."
 msgstr "Inserta el fragmento de código en la pestaña de inicio de la página de cuenta de MemberPress antes del campo de nombre."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:65
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:81
 msgid "Before Account First Name"
 msgstr "Antes del nombre de la cuenta"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:62
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:78
 msgid "Insert snippet before the MemberPress checkout coupon field."
 msgstr "Insertar snippet antes del campo de cupón de pago de MemberPress."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:61
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:77
 msgid "Before Checkout Coupon Field"
 msgstr "Campo de cupón antes de pagar"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:58
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:74
 msgid "Insert snippet right before the MemberPress checkout submit button."
 msgstr "Insertar el fragmento de código justo antes del botón de envío de MemberPress."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:57
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:73
 msgid "Before Checkout Submit Button"
 msgstr "Botón de enviar antes de pagar"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:54
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:70
 msgid "Insert snippet before the MemberPress registration form used for checkout."
 msgstr "Inserta el fragmento de código antes del formulario de registro de MemberPress utilizado para el pago."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:53
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:69
 msgid "Before the Registration Form"
 msgstr "Antes del formulario de registro"
 
@@ -1288,21 +1448,21 @@ msgstr "Antes del formulario de registro"
 msgid "This snippet was automatically deactivated because of a fatal error at %2$s on %3$s (%1$s ago)"
 msgstr "Este fragmento de código se desactivó automáticamente debido a un error fatal en %2$s el %3$s (hace %1$s)"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2316
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2324
 msgid "This message will disappear when the snippet is updated."
 msgstr "Este mensaje desaparecerá cuando se actualice el fragmento."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2311
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2319
 msgid "You can enable error logging to get more details about the error that caused this."
 msgstr "Puedes activar el registro de errores para obtener más detalles sobre el error que lo causó."
 
 #. Translators: The placeholder gets replaced with the time passed since the
 #. snippet was deactivated.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2248
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2256
 msgid "This snippet was automatically deactivated due to an error at %1$s on %2$s (%3$s ago)."
 msgstr "Este fragmento se desactivó automáticamente debido a un error en %1$s el %2$s (hace %3$s)."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2223
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2231
 msgid "View Error Logs"
 msgstr "Ver registros de errores"
 
@@ -1311,24 +1471,24 @@ msgid "Seamless integration with WooCommerce, Easy Digital Downloads and MemberP
 msgstr "Perfecta integración con WooCommerce, Easy Digital Downloads y MemberPress"
 
 #: includes/admin/pages/class-wpcode-admin-page-code-snippets.php:336
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2323
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2331
 msgid "Learn More"
 msgstr "Aprender más"
 
 #: includes/admin/pages/class-wpcode-admin-page-code-snippets.php:322
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2232
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2240
 msgid "Enable Error Logging"
 msgstr "Activa el registro de errores"
 
-#: includes/class-wpcode-snippet-execute.php:96
+#: includes/class-wpcode-snippet-execute.php:141
 msgid "Blocks Snippet (PRO)"
 msgstr "Bloques de fragmentos de código (PRO)"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1710
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1714
 msgid "Upgrade to PRO today and unlock building snippets using the Gutenberg Block Editor. Create templates using blocks and use the full power of WPCode to insert them in your site."
 msgstr "Actualiza a PRO hoy y desbloquea la construcción de fragmentos de código utilizando el editor de bloques de Gutenberg. Crea plantillas usando bloques y usa todo el poder de WPCode para insertarlas en tu sitio."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1709
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1713
 msgid "Blocks snippets is a Pro Feature"
 msgstr "Los bloques de fragmentos de código son una característica Pro"
 
@@ -1340,143 +1500,143 @@ msgstr "Al permitirnos rastrear tus datos de uso, podemos ayudarte mejor, ya que
 msgid "Allow Usage Tracking"
 msgstr "Permitir el seguimiento de uso"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:103
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:119
 msgid "Insert snippet before the thank you page content for WooCommerce."
 msgstr "Insertar el fragmento de código antes del contenido de la página de agradecimiento de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:102
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:118
 msgid "Before the Thank You Page"
 msgstr "Antes de la página de agradecimiento"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:99
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:115
 msgid "Insert snippet after the checkout payment button on the WooCommerce checkout page."
 msgstr "Insertar el fragmento de código después del botón de pago en la página de finalizar compra de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:95
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:111
 msgid "Insert snippet before the checkout payment button on the WooCommerce checkout page."
 msgstr "Insertar el fragmento de código antes del botón de pago en la página de finalizar compra de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:91
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:107
 msgid "Insert snippet after the checkout form on the WooCommerce checkout page."
 msgstr "Insertar el fragmento de código después del formulario de pago en la página de finalizar compra de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:87
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:103
 msgid "Insert snippet before the checkout form on the WooCommerce checkout page."
 msgstr "Insertar el fragmento de código antes del formulario de pago en la página de finalizar compra de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:83
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:99
 msgid "Insert snippet after the cart on WooCommerce pages."
 msgstr "Insertar el fragmento de código después del carrito en las páginas de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:79
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:95
 msgid "Insert snippet before the cart on WooCommerce pages."
 msgstr "Insertar el fragmento de código antes del carrito en las páginas de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:75
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:91
 msgid "Insert snippet after the product summary on the single WooCommerce product page."
 msgstr "Insertar el fragmento de código después del resumen del producto en la página individual de producto de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:71
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:87
 msgid "Insert snippet before the product summary on the single WooCommerce product page."
 msgstr "Insertar el fragmento de código antes del resumen del producto en la página individual de producto de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:67
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:83
 msgid "Insert snippet after the content on the single WooCommerce product page."
 msgstr "Insertar el fragmento de código después del contenido en la página individual de producto de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:63
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:79
 msgid "Insert snippet before the content on the single WooCommerce product page."
 msgstr "Insertar el fragmento de código antes del contenido en la página individual de producto de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:59
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:75
 msgid "Insert snippet after the list of products on a WooCommerce page."
 msgstr "Insertar el fragmento de código después del listado de productos en una página de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:55
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:71
 msgid "Insert snippet before the list of products on a WooCommerce page."
 msgstr "Insertar el fragmento de código antes del listado de productos en una página de WooCommerce."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:90
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:106
 msgid "Insert snippet after the EDD checkout form on the checkout page"
 msgstr "Insertar el fragmento de código después del formulario de pago de EDD en la página de finalizar compra."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:86
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:102
 msgid "Insert snippet before the EDD checkout form on the checkout page."
 msgstr "Insertar el fragmento de código antes del formulario de pago de EDD en la página de finalizar compra."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:82
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:98
 msgid "Insert snippet after the EDD cart on the checkout page."
 msgstr "Insertar el fragmento de código después del carrito de EDD en la página de finalizar compra."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:78
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:94
 msgid "Insert snippet before the EDD cart on the checkout page."
 msgstr "Insertar el fragmento de código antes del carrito de EDD en la página de finalizar compra."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:74
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:90
 msgid "Insert snippet after the EDD cart."
 msgstr "Insertar el fragmento de código después del carrito de EDD."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:70
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:86
 msgid "Insert snippet before the EDD cart."
 msgstr "Insertar el fragmento de código antes del carrito de EDD."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:66
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:82
 msgid "Insert snippet after the single EDD download content."
 msgstr "Inserta el fragmento de código después del contenido de descarga de EDD único."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:62
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:78
 msgid "Insert snippet before the single EDD download content."
 msgstr "Inserta el fragmento de código antes del contenido individual de descarga EDD."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:58
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:74
 msgid "Insert snippet after the EDD purchase button."
 msgstr "Insertar el fragmento de código después del botón de comprar de EDD."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:54
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:70
 msgid "Insert snippet before the EDD purchase button."
 msgstr "Insertar el fragmento de código antes del botón de comprar de EDD."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:74
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:98
 msgid "Upgrade to PRO today and insert snippets anywhere on your site using CSS selectors to target any HTML element."
 msgstr "Actualiza a PRO hoy e inserta fragmentos de código en cualquier lugar de tu sitio utilizando selectores CSS para apuntar a cualquier elemento HTML."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:73
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:97
 msgid "Insert Anywhere by CSS Selector is a Premium feature"
 msgstr "Insertar en cualquier lugar mediante el selector CSS es una característica Premium"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:66
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:82
 msgid "Insert snippet after the content of the HTML element specified by CSS selector."
 msgstr "Insertar el fragmento de código después del contenido del elemento HTML especificado por el selector CSS."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:65
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:81
 msgid "At the end of HTML Element"
 msgstr "Al final de elemento HTML"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:62
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:78
 msgid "Insert snippet before the content of the HTML element specified by CSS selector."
 msgstr "Insertar el fragmento antes del contenido del elemento HTML especificado por el selector CSS."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:61
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:77
 msgid "At the start of HTML Element"
 msgstr "Al principio de elemento HTML"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:58
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:74
 msgid "Insert snippet after the HTML element specified by the CSS selector."
 msgstr "Insertar el fragmento después del elemento HTML especificado por el selector CSS."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:57
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:73
 msgid "After HTML Element"
 msgstr "Después de elemento HTML"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:54
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:70
 msgid "Insert snippet before the HTML element specified by the CSS selector."
 msgstr "Insertar el fragmento antes del elemento HTML especificado por el selector CSS."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:53
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:69
 msgid "Before HTML Element"
 msgstr "Antes de elemento HTML"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:50
+#: includes/lite/auto-insert/class-wpcode-auto-insert-anywhere.php:58
 msgid "Anywhere (CSS Selector)"
 msgstr "En cualquier lugar (selector CSS)"
 
@@ -1519,16 +1679,16 @@ msgid "You are not allowed to install plugins."
 msgstr "No tienes permisos para instalar plugins."
 
 #. translators: %s: Snippet title and ID used in the error log for clarity.
-#: includes/class-wpcode-snippet.php:732
+#: includes/class-wpcode-snippet.php:743
 msgid "Snippet %s was automatically deactivated due to a fatal error."
 msgstr "El fragmento %s se ha desactivado automáticamente debido a un error fatal."
 
 #: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:724
-#: includes/class-wpcode-auto-insert.php:61
+#: includes/class-wpcode-auto-insert.php:55
 msgid "eCommerce"
 msgstr "Comercio electrónico"
 
-#: includes/class-wpcode-auto-insert.php:57
+#: includes/class-wpcode-auto-insert.php:54
 msgid "Page-Specific"
 msgstr "En página específica"
 
@@ -1536,69 +1696,69 @@ msgstr "En página específica"
 msgid "Global"
 msgstr "Global"
 
-#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:48
+#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:69
 msgid "Insert the snippet in the footer just before the closing body tag."
 msgstr "Inserta el fragmento de código en el pie de página, justo antes de la etiqueta body de cierre."
 
-#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:44
+#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:65
 msgid "Insert the snippet just after the opening body tag."
 msgstr "Inserta el fragmento de código justo después de la etiqueta body de apertura."
 
-#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:40
+#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:61
 msgid "Insert snippet between the head tags of your website on all pages."
 msgstr "Inserta el fragmento de código entre las etiquetas head de tu web en todas las páginas."
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:68
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:92
 msgid "Insert snippet after paragraph # of the post content."
 msgstr "Inserta el fragmento de código después del párrafo # del contenido de la entrada."
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:64
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:88
 msgid "Insert snippet before paragraph # of the post content."
 msgstr "Inserta el fragmento de código antes del párrafo # del contenido de la entrada."
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:60
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:84
 msgid "Insert snippet at the end of the post content."
 msgstr "Inserta el fragmento de código al final del contenido de la entrada."
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:56
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:80
 msgid "Insert snippet at the beginning of the post content."
 msgstr "Inserta el fragmento de código al principio del contenido de la entrada."
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:60
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:83
 msgid "Ideal for running the snippet later with conditional logic rules in the frontend."
 msgstr "Ideal para ejecutar el fragmento de código más tarde con reglas de lógica condicional  en la vista pública de la web."
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:56
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:79
 msgid "The snippet only gets executed in the wp-admin area."
 msgstr "El fragmento de código se ejecuta solamente en el área de administración."
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:52
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:75
 msgid "Snippet gets executed only in the frontend of the website."
 msgstr "El fragmento de código se ejecuta solamente en la vista pública de la web."
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:48
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:71
 msgid "Snippet gets executed everywhere on your website."
 msgstr "El fragmento de código se ejecuta en todas las partes de tu web."
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:55
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:52
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:78
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:76
 msgid "Insert snippet at the end of a post."
 msgstr "Insertar el fragmento de código al final de una entrada."
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:51
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:48
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:74
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:72
 msgid "Insert snippet at the beginning of a post."
 msgstr "Insertar el fragmento de código al principio de una entrada."
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:47
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:70
 msgid "Insert snippet between multiple posts."
 msgstr "Insertar el fragmento de código entre varias entradas."
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:43
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:66
 msgid "Insert snippet below post summary."
 msgstr "Insertar el fragmento de código debajo del resumen de la entrada."
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:39
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:62
 msgid "Insert snippet above post summary."
 msgstr "Insertar el fragmento de código encima del resumen de la entrada."
 
@@ -1705,15 +1865,15 @@ msgstr "Es después"
 msgid "Is Before"
 msgstr "Es antes"
 
-#: includes/class-wpcode-snippet-execute.php:518
+#: includes/class-wpcode-snippet-execute.php:591
 msgid "Enable error logging"
 msgstr "Activar el registro de errores"
 
-#: includes/class-wpcode-snippet-execute.php:509
+#: includes/class-wpcode-snippet-execute.php:582
 msgid "View error logs"
 msgstr "Ver registros de errores"
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:59
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:82
 msgid "Frontend Conditional Logic"
 msgstr "Lógica condicional en frontend"
 
@@ -1722,7 +1882,7 @@ msgid "Toggle Snippet Status"
 msgstr "Alternar estado del fragmento de código"
 
 #. translators: %s is the title of the metabox.
-#: includes/admin/pages/class-wpcode-admin-page.php:602
+#: includes/admin/pages/class-wpcode-admin-page.php:600
 msgid "Collapse Metabox %s"
 msgstr "Cerrar caja meta %s"
 
@@ -1766,55 +1926,55 @@ msgstr "Registros"
 
 #. Translators: %1$s and %2$s are HTML tags for a link to the documentation
 #. article.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2016
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2024
 msgid "Looking for more scheduling options? %1$sClick here%2$s to read more about all the available options."
 msgstr "¿Buscas más opciones de programación? %1$sHaz clic aquí%2$s para leer más sobre todas las opciones disponibles."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2007
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2015
 msgid "Clear end date"
 msgstr "Vaciar fecha de finalización"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2005
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2006
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2013
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2014
 msgid "End Date"
 msgstr "Fecha de finalización"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1998
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2006
 msgid "Clear start date"
 msgstr "Vaciar fecha de inicio"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1996
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1997
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2004
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2005
 msgid "Start Date"
 msgstr "Fecha de inicio"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1931
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1939
 msgid "Schedule snippet"
 msgstr "Programar fragmento de código"
 
 #. Translators: %1$s Opening anchor tag. %2$s Closing anchor tag.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1719
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1727
 msgid "For better results using conditional logic with PHP snippets we automatically switched the auto-insert location to \"Frontend Conditional Logic\" that runs later. If you want to run the snippet earlier please switch back to \"Run Everywhere\" but note not all conditional logic options will be available. %1$sRead more%2$s"
 msgstr "Para una mejor ejecución de la lógica condicional con fragmentos de código PHP, hemos cambiado automáticamente la ubicación de autoinserción a «Lógica condicional de la vista pública». Si quieres ejecutar el fragmento de código antes, por favor, vuelve a cambiar a «Ejecutar en cualquier lugar» pero ten en cuenta que no todas las opciones de lógica condicional estarán disponibles. %1$sLeer más%2$s"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1707
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1711
 msgid "Upgrade to PRO today and unlock powerful scheduling options to limit when your snippet is active on the site."
 msgstr "Actualiza a versión PRO hoy y desbloquea potentes opciones de programación para limitar cuando están activos tus fragmentos de código en el sitio."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1706
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1710
 msgid "Scheduling snippets is a Pro Feature"
 msgstr "Programar fragmentos de código es una característica Pro"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1591
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1595
 msgid "Add another \"AND\" rules row."
 msgstr "Añade otra fila de reglas «AND»."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1193
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1192
 msgid "Snippet Status:"
 msgstr "Estado del fragmento de código:"
 
 #. translators: %s: Error message.
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:210
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:211
 msgid "Error message: %s"
 msgstr "Mensaje de error: %s"
 
@@ -1838,7 +1998,7 @@ msgstr "Aunque siempre puede puedes usar fragmentos de código globales, en la v
 msgid "You do not have permissions to connect WPCode to the library."
 msgstr "No tienes permisos para conectar WPCode a la biblioteca."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1122
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1121
 msgid "Update Generated Snippet"
 msgstr "Actualizar el fragmento de código generado"
 
@@ -2381,32 +2541,32 @@ msgstr "Conecta tu web con WPCode Library y obtén acceso instantáneo a fragmen
 msgid "Get Access to Our Library of %d FREE Snippets"
 msgstr "Accede a nuestra biblioteca de %d fragmentos GRATUITOS"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2129
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2137
 msgid "Mobile only"
 msgstr "Solo móvil"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2128
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2136
 msgid "Desktop only"
 msgstr "Solo escritorio"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2127
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2135
 msgid "Any device type"
 msgstr "Cualquier dispositivo"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2113
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2121
 #: includes/lite/conditional-logic/class-wpcode-conditional-device.php:48
 msgid "Device Type"
 msgstr "Tipo de dispositivo"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2107
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2115
 msgid "Limit where you want this snippet to be loaded by device type. By default, snippets are loaded on all devices."
 msgstr "Limita dónde quieres que se cargue este fragmento por tipo de dispositivo. Por defecto, los fragmentos se cargan en todos los dispositivos."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1704
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1708
 msgid "Upgrade to PRO today and unlock one-click device targeting for your snippets."
 msgstr "Actualiza a PRO hoy mismo y desbloquea la segmentación por dispositivo con un solo clic para tus fragmentos."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1703
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1707
 msgid "Device Type is a Pro Feature"
 msgstr "El tipo de dispositivo es una característica Pro"
 
@@ -2520,10 +2680,6 @@ msgstr "Página de descarga de categorías"
 msgid "Single Download Page"
 msgstr "Página de descarga individual"
 
-#: includes/lite/conditional-logic/class-wpcode-conditional-edd.php:63
-msgid "Success Page"
-msgstr "Página de éxito"
-
 #: includes/lite/conditional-logic/class-wpcode-conditional-edd.php:58
 #: includes/lite/conditional-logic/class-wpcode-conditional-woocommerce.php:58
 msgid "Checkout Page"
@@ -2541,93 +2697,93 @@ msgstr "Las reglas página de Easy Digital Downloads son una característica pro
 msgid "EDD Page"
 msgstr "Página EDD"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:106
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:130
 msgid "WooCommerce Locations are a PRO feature"
 msgstr "Las ubicaciones de WooCommerce son una característica PRO"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:98
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:114
 msgid "After Checkout Payment Button"
 msgstr "Después del botón de pago de finalizar la compra"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:94
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:110
 msgid "Before Checkout Payment Button"
 msgstr "Antes del botón de pago al finalizar compra"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:74
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:90
 msgid "After the Single Product Summary"
 msgstr "Después del resumen de un solo producto"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:70
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:86
 msgid "Before the Single Product Summary"
 msgstr "Antes Resumen de un solo producto"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:66
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:82
 msgid "After the Single Product"
 msgstr "Después de un solo producto"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:62
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:78
 msgid "Before the Single Product"
 msgstr "Antes de un solo producto"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:58
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:74
 msgid "After the List of Products"
 msgstr "Después de la lista de productos"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:54
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:70
 msgid "Before the List of Products"
 msgstr "Antes de la lista de productos"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:94
-#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:86
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:107
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:118
+#: includes/lite/auto-insert/class-wpcode-auto-insert-memberpress.php:110
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:131
 msgid "Upgrade to PRO today and get access to advanced eCommerce auto-insert locations and conditional logic rules for your needs."
 msgstr "Actualiza a PRO hoy mismo y obtén acceso a ubicaciones avanzadas de autoinserción de comercio electrónico y reglas lógicas condicionales para tus necesidades."
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:93
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:117
 msgid "Easy Digital Downloads Locations are a PRO feature"
 msgstr "Las ubicaciones de las Easy Digital Downloads son una función PRO"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:89
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:90
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:105
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:106
 msgid "After the Checkout Form"
 msgstr "Después del formulario de finalización del pago"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:85
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:86
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:101
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:102
 msgid "Before the Checkout Form"
 msgstr "Antes del formulario de finalización del pago"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:81
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:97
 msgid "After the Checkout Cart"
 msgstr "Después del carrito de finalización de la compra"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:77
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:93
 msgid "Before the Checkout Cart"
 msgstr "Antes del carrito de finalización de la compra"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:73
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:82
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:89
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:98
 msgid "After the Cart"
 msgstr "Después del carrito"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:69
-#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:78
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:85
+#: includes/lite/auto-insert/class-wpcode-auto-insert-woocommerce.php:94
 msgid "Before the Cart"
 msgstr "Antes del carrito"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:65
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:81
 msgid "After the Single Download"
 msgstr "Después de la descarga individual"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:61
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:77
 msgid "Before the Single Download"
 msgstr "Antes de la descarga individual"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:57
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:73
 msgid "After the Purchase Button"
 msgstr "Después del botón de compra"
 
-#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:53
+#: includes/lite/auto-insert/class-wpcode-auto-insert-edd.php:69
 msgid "Before the Purchase Button"
 msgstr "Antes del botón de compra"
 
@@ -2690,7 +2846,7 @@ msgstr "Seleccionar fragmentos"
 msgid "Choose the snippets you want to run on this page. Please note: only active snippets will be executed."
 msgstr "Elige los fragmentos de código que quieres ejecutar en esta página. Nota: sólo se ejecutarán los fragmentos activos."
 
-#: includes/class-wpcode-snippet-execute.php:102
+#: includes/class-wpcode-snippet-execute.php:147
 msgid "CSS Snippet"
 msgstr "Fragmento de código CSS"
 
@@ -2702,22 +2858,22 @@ msgstr "Recargando página, por favor, espera."
 msgid "Authentication successfully completed"
 msgstr "La identificación se ha completado correctamente"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:758
+#: includes/admin/pages/class-wpcode-admin-page.php:756
 msgid "Connect to library to unlock (Free)"
 msgstr "Conéctate a la biblioteca para desbloquear esta opción (gratis)"
 
 #: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:341
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2184
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2192
 #: includes/lite/admin/class-wpcode-metabox-snippets-lite.php:319
 msgid "Upgrade to Pro and Unlock Revisions"
 msgstr "Pásate a Pro y desbloquea las revisiones"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2181
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2189
 msgid "Upgrade to WPCode Pro today and start tracking revisions and see exactly who, when and which changes were made to your snippet."
 msgstr "Pásate a WPCode Pro hoy para comenzar a hacer un seguimiento de las revisiones y ver exactamente qué cambios se han realizado en tu fragmento de código, quién los ha hecho y cuándo."
 
 #: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:335
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2178
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2186
 #: includes/lite/admin/class-wpcode-metabox-snippets-lite.php:313
 msgid "Code Revisions is a Pro Feature"
 msgstr "Las revisiones de código son una característica Pro"
@@ -2733,55 +2889,55 @@ msgstr "%d revisiones más"
 msgid "Updated %s ago"
 msgstr "Actualizado hace %s"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2095
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2103
 msgid "Easily switch back to a previous version of your snippet."
 msgstr "Cambia fácilmente a una versión anterior de tu fragmento de código."
 
 #: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:351
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2093
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2101
 msgid "Code Revisions"
 msgstr "Revisiones de código"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2088
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2096
 msgid "As you make changes to your snippet and save, you will get a list of previous versions with all the changes made in each revision. You can compare revisions to the current version or see changes as they have been saved by going through each revision. Any of the revisions can then be restored as needed."
 msgstr "Conforme realices y guardes cambios en tu fragmento de código obtendrás una lista de las versiones anteriores con todos los cambios realizados en cada revisión. Podrás comparar las revisiones con la versión actual y ver los cambios que se han ido guardando en cada revisión. Podrás restaurar cualquiera de las revisiones en función de lo que necesites."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1836
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1844
 msgid "Use this field to define a custom shortcode name instead of the id-based one."
 msgstr "Utiliza este campo para definir un shortcode personalizado en vez de usar el basado en identificador."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1831
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1839
 msgid "Shortcode name"
 msgstr "Nombre del shortcode"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1828
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1836
 #: includes/class-wpcode-admin-bar-info.php:289
 msgid "Custom Shortcode"
 msgstr "Shortcode personalizado"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1701
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1705
 msgid "Upgrade today to use a custom shortcode and nerver worry about changing snippet ids again, even when importing your snippets to another site. You'll also get access to a private library that makes setting up new sites a lot easier."
 msgstr "Actualiza hoy para utilizar un shortcode personalizado y no volver a preocuparte de cambiar los identificadores de los fragmentos de código, ni siquiera al importar tus fragmentos a otro sitio. También obtendrás acceso a una biblioteca privada que facilita enormemente la creación de nuevos sitios."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1700
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1704
 msgid "Custom Shortcode is a Pro Feature"
 msgstr "«Shortcode personalizado» es una característica Pro"
 
-#: includes/admin/admin-scripts.php:50 includes/admin/admin-scripts.php:54
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1745
+#: includes/admin/admin-scripts.php:56 includes/admin/admin-scripts.php:60
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1753
 #: includes/lite/class-wpcode-smart-tags-lite.php:22
 msgid "Upgrade to PRO"
 msgstr "Actualizar a PRO"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1698
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1702
 msgid "Upgrade to PRO today and save your private snippets to the WPCode library for easy access. You can also share your snippets with other users or load them on other sites."
 msgstr "Actualiza a PRO hoy mismo y guarda tus fragmentos privados en la biblioteca de WPCode para acceder a ellos fácilmente. También puedes compartir tus fragmentos con otros usuarios o cargarlos en otros sitios."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1697
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1701
 msgid "Save to Library is a Pro Feature"
 msgstr "«Guardar en la biblioteca» es una característica Pro"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1242
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1241
 msgid "Save to Library"
 msgstr "Guardar en la biblioteca"
 
@@ -2837,7 +2993,7 @@ msgstr "Guarda tus fragmentos de código en la Biblioteca WPCode"
 
 #: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:345
 #: includes/admin/pages/class-wpcode-admin-page-library.php:219
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2188
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2196
 #: includes/admin/pages/trait-wpcode-my-library-markup.php:237
 #: includes/lite/admin/class-wpcode-metabox-snippets-lite.php:150
 #: includes/lite/admin/class-wpcode-metabox-snippets-lite.php:293
@@ -2870,19 +3026,19 @@ msgstr "Mi biblioteca"
 msgid "Snippets"
 msgstr "Fragmentos de código"
 
-#: includes/admin/class-wpcode-metabox-snippets.php:67
+#: includes/admin/class-wpcode-metabox-snippets.php:66
 msgid "Custom Code Snippet"
 msgstr "Fragmento de código personalizado"
 
-#: includes/admin/class-wpcode-metabox-snippets.php:55
+#: includes/admin/class-wpcode-metabox-snippets.php:54
 msgid "WPCode Page Scripts"
 msgstr "Scripts de página de WPCode"
 
-#: includes/admin/class-wpcode-admin-page-loader.php:221
+#: includes/admin/class-wpcode-admin-page-loader.php:222
 msgid "Get WPCode Pro"
 msgstr "Obtener WPCode Pro"
 
-#: includes/admin/class-wpcode-admin-page-loader.php:220
+#: includes/admin/class-wpcode-admin-page-loader.php:221
 msgid "Upgrade to WPCode Pro"
 msgstr "Actualizar a WPCode Pro"
 
@@ -4335,7 +4491,7 @@ msgstr "Formatos de entradas"
 msgid "Page Attributes"
 msgstr "Atributos de página"
 
-#: includes/admin/class-wpcode-metabox-snippets.php:68
+#: includes/admin/class-wpcode-metabox-snippets.php:67
 #: includes/generator/class-wpcode-generator-post-type.php:384
 msgid "Revisions"
 msgstr "Revisiones"
@@ -5325,49 +5481,49 @@ msgstr "Tipo de página"
 msgid "Page"
 msgstr "Página"
 
-#: includes/class-wpcode-snippet.php:683
+#: includes/class-wpcode-snippet.php:694
 msgid "Untitled Snippet"
 msgstr "Fragmento de código sin título"
 
 #: includes/admin/admin-ajax-handlers.php:39
-#: includes/class-wpcode-snippet.php:470
+#: includes/class-wpcode-snippet.php:477
 msgid "You are not allowed to change snippet status, please contact your webmaster."
 msgstr "No estás autorizado a cambiar el estado del fragmento, por favor, ponte en contacto con tu webmaster."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2271
-#: includes/class-wpcode-snippet-execute.php:524
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:2279
+#: includes/class-wpcode-snippet-execute.php:597
 msgid "Error message:"
 msgstr "Mensaje de error:"
 
-#: includes/class-wpcode-snippet-execute.php:481
+#: includes/class-wpcode-snippet-execute.php:554
 msgid "WPCode has detected an error in one of the snippets which has now been automatically deactivated."
 msgstr "WPCode ha detectado un error en uno de los fragmentos de código que ha sido desactivado automáticamente."
 
-#: includes/class-wpcode-snippet-execute.php:478
+#: includes/class-wpcode-snippet-execute.php:551
 msgid "Please click the back button in the browser to update the snippet."
 msgstr "Haz clic en el botón atrás del navegador para actualizar el fragmento de código."
 
-#: includes/class-wpcode-snippet-execute.php:474
+#: includes/class-wpcode-snippet-execute.php:547
 msgid "Snippet has not been activated due to an error."
 msgstr "El fragmento no se ha activado debido a un error."
 
-#: includes/class-wpcode-snippet-execute.php:117
+#: includes/class-wpcode-snippet-execute.php:168
 msgid "Universal Snippet"
 msgstr "Fragmento de código universal"
 
-#: includes/class-wpcode-snippet-execute.php:112
+#: includes/class-wpcode-snippet-execute.php:163
 msgid "PHP Snippet"
 msgstr "Fragmento de código de PHP"
 
-#: includes/class-wpcode-snippet-execute.php:107
+#: includes/class-wpcode-snippet-execute.php:158
 msgid "JavaScript Snippet"
 msgstr "Fragmento de código de JavaScript"
 
-#: includes/class-wpcode-snippet-execute.php:91
+#: includes/class-wpcode-snippet-execute.php:136
 msgid "Text Snippet"
 msgstr "Fragmento de texto"
 
-#: includes/class-wpcode-snippet-execute.php:85
+#: includes/class-wpcode-snippet-execute.php:130
 msgid "HTML Snippet"
 msgstr "Fragmento de HTML"
 
@@ -5393,7 +5549,7 @@ msgid "Core"
 msgstr "Núcleo"
 
 #: includes/class-wpcode-generator.php:95
-#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:51
+#: includes/lite/auto-insert/class-wpcode-auto-insert-content.php:59
 msgid "Content"
 msgstr "Contenido"
 
@@ -5401,83 +5557,83 @@ msgstr "Contenido"
 msgid "Admin"
 msgstr "Administrador"
 
-#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:47
+#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:68
 msgid "Site Wide Footer"
 msgstr "Pie de página de todo el sitio"
 
-#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:43
+#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:64
 msgid "Site Wide Body"
 msgstr "Cuerpo de todo el sitio"
 
-#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:39
+#: includes/auto-insert/class-wpcode-auto-insert-site-wide.php:60
 msgid "Site Wide Header"
 msgstr "Cabecera de todo el sitio"
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:67
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:91
 msgid "Insert After Paragraph"
 msgstr "Insertar después del párrafo"
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:63
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:87
 msgid "Insert Before Paragraph"
 msgstr "Insertar antes del párrafo"
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:59
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:83
 msgid "Insert After Content"
 msgstr "Insertar después del contenido"
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:55
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:79
 msgid "Insert Before Content"
 msgstr "Insertar antes del contenido"
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:51
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:75
 msgid "Insert After Post"
 msgstr "Insertar después de la entrada"
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:47
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:71
 msgid "Insert Before Post"
 msgstr "Insertar antes de la entrada"
 
-#: includes/auto-insert/class-wpcode-auto-insert-single.php:44
+#: includes/auto-insert/class-wpcode-auto-insert-single.php:60
 msgid "Page, Post, Custom Post Type"
 msgstr "Página, entrada, tipo de entrada personalizado"
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:55
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:78
 msgid "Admin Only"
 msgstr "Solo escritorio"
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:51
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:74
 msgid "Frontend Only"
 msgstr "Solo frontend"
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:47
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:70
 msgid "Run Everywhere"
 msgstr "Ejecutar en todas partes"
 
-#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:44
+#: includes/auto-insert/class-wpcode-auto-insert-everywhere.php:59
 msgid "PHP Snippets Only"
 msgstr "Solo fragmentos de código PHP"
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:54
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:77
 msgid "After Post"
 msgstr "Después de la entrada"
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:50
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:73
 msgid "Before Post"
 msgstr "Antes de la entrada"
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:46
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:69
 msgid "Between Posts"
 msgstr "Entre las entradas"
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:42
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:65
 msgid "Insert After Excerpt"
 msgstr "Insertar después del extracto"
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:38
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:61
 msgid "Insert Before Excerpt"
 msgstr "Insertar antes del extracto"
 
-#: includes/auto-insert/class-wpcode-auto-insert-archive.php:35
+#: includes/auto-insert/class-wpcode-auto-insert-archive.php:50
 msgid "Categories, Archives, Tags, Taxonomies"
 msgstr "Categorías, Archivos, Etiquetas, Taxonomías"
 
@@ -5572,94 +5728,94 @@ msgstr "Filtrar fragmentos de código por etiqueta: %s"
 msgid "%1$s at %2$s"
 msgstr "%1$s a las %2$s"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:1108
+#: includes/admin/pages/class-wpcode-admin-page.php:1109
 msgid "Preview Snippet"
 msgstr "Previsualizar fragmento de código"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:942
+#: includes/admin/pages/class-wpcode-admin-page.php:940
 msgid "We encountered a problem loading the Snippet Library items, please try again later."
 msgstr "Hemos encontrado un problema al cargar los elementos de la librería de fragmentos de código, por favor, inténtalo de nuevo más tarde."
 
-#: includes/admin/pages/class-wpcode-admin-page.php:748
+#: includes/admin/pages/class-wpcode-admin-page.php:746
 msgid "Preview"
 msgstr "Previsualizar"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:735
+#: includes/admin/pages/class-wpcode-admin-page.php:733
 msgid "Used"
 msgstr "Usado"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:734
+#: includes/admin/pages/class-wpcode-admin-page.php:732
 msgid "Edit snippet"
 msgstr "Editar snippet"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:721
+#: includes/admin/pages/class-wpcode-admin-page.php:719
 msgid "Use snippet"
 msgstr "Utilizar fragmento de código"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:452
+#: includes/admin/pages/class-wpcode-admin-page.php:451
 msgid "Help"
 msgstr "Ayuda"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:390
+#: includes/admin/pages/class-wpcode-admin-page.php:389
 msgid "Dismiss"
 msgstr "Descartar"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:348
+#: includes/admin/pages/class-wpcode-admin-page.php:347
 msgid "Dismiss all"
 msgstr "Descartar todo"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:325
+#: includes/admin/pages/class-wpcode-admin-page.php:324
 msgid "Active Notifications"
 msgstr "Avisos activos"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:322
+#: includes/admin/pages/class-wpcode-admin-page.php:321
 msgid "Dismissed Notifications"
 msgstr "Avisos descartados"
 
 #. Translators: Placeholder for the number of dismissed notifications.
-#: includes/admin/pages/class-wpcode-admin-page.php:315
+#: includes/admin/pages/class-wpcode-admin-page.php:314
 msgid "Notifications (%s)"
 msgstr "Avisos (%s)"
 
 #. Translators: Placeholder for the number of active notifications.
-#: includes/admin/pages/class-wpcode-admin-page.php:304
+#: includes/admin/pages/class-wpcode-admin-page.php:303
 msgid "New Notifications (%s)"
 msgstr "Nuevos avisos (%s)"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:292
+#: includes/admin/pages/class-wpcode-admin-page.php:291
 msgid "Submit a Support Ticket"
 msgstr "Enviar un ticket de soporte"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:291
+#: includes/admin/pages/class-wpcode-admin-page.php:290
 msgid "Submit a ticket and our world class support team will be in touch soon."
 msgstr "Envía un ticket y nuestro equipo de soporte de clase mundial se pondrá en contacto pronto."
 
-#: includes/admin/pages/class-wpcode-admin-page.php:290
+#: includes/admin/pages/class-wpcode-admin-page.php:289
 msgid "Get Support"
 msgstr "Obtener asistencia"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:286
+#: includes/admin/pages/class-wpcode-admin-page.php:285
 msgid "View All Documentation"
 msgstr "Ver toda la documentación"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:285
+#: includes/admin/pages/class-wpcode-admin-page.php:284
 msgid "Browse documentation, reference material, and tutorials for WPCode."
 msgstr "Consulta la documentación, el material de referencia y los tutoriales de WPCode."
 
-#: includes/admin/pages/class-wpcode-admin-page.php:284
+#: includes/admin/pages/class-wpcode-admin-page.php:283
 msgid "View Documentation"
 msgstr "Ver la documentación"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:269
+#: includes/admin/pages/class-wpcode-admin-page.php:268
 msgid "No docs found"
 msgstr "No se han encontrado documentos"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:262
+#: includes/admin/pages/class-wpcode-admin-page.php:261
 #: includes/admin/pages/class-wpcode-code-snippets-table.php:868
 msgid "Clear"
 msgstr "Vaciar"
 
-#: includes/admin/pages/class-wpcode-admin-page.php:258
+#: includes/admin/pages/class-wpcode-admin-page.php:257
 msgid "Search docs"
 msgstr "Buscar documentos"
 
@@ -5735,7 +5891,7 @@ msgid "No snippets found."
 msgstr "No se han encontrado fragmentos."
 
 #: includes/admin/pages/class-wpcode-admin-page-tools.php:282
-#: includes/admin/pages/class-wpcode-admin-page.php:1018
+#: includes/admin/pages/class-wpcode-admin-page.php:1017
 msgid "Available Snippets"
 msgstr "Fragmentos disponibles"
 
@@ -5838,7 +5994,7 @@ msgstr "La importación ha finalizado correctamente. Puedes ir a comprobar %1$st
 msgid "Tools"
 msgstr "Herramientas"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1676
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1680
 msgctxt "Conditional logic \"or\" another rule"
 msgid "OR"
 msgstr "O"
@@ -5859,79 +6015,79 @@ msgstr "No es"
 msgid "Is"
 msgstr "Es"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1590
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1594
 msgctxt "Conditional logic add another \"and\" rules row."
 msgid "AND"
 msgstr "Y"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1486
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1491
 msgid "This code snippet if"
 msgstr "Este fragmento de código si"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1470
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1475
 msgid "Hide"
 msgstr "Ocultar"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1469
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1474
 msgid "Show"
 msgstr "Mostrar"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1452
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1457
 msgid "+ Add new group"
 msgstr "+ Añadir un grupo nuevo"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1199
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1198
 #: includes/admin/pages/class-wpcode-admin-page-tools.php:370
 #: includes/admin/pages/class-wpcode-code-snippets-table.php:969
 msgid "Inactive"
 msgstr "Inactivo"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1196
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1195
 #: includes/admin/pages/class-wpcode-admin-page-tools.php:369
 #: includes/admin/pages/class-wpcode-code-snippets-table.php:966
 msgid "Active"
 msgstr "Activo"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1080
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1079
 msgid "Enable logic to add rules and limit where your snippets are inserted automatically. Use multiple groups for different sets of rules."
 msgstr "Activa la lógica para añadir reglas y limitar dónde se insertan automáticamente tus fragmentos. Utiliza varios grupos para diferentes conjuntos de reglas."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1078
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1077
 msgid "Smart Conditional Logic"
 msgstr "Lógica condicional inteligente"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1073
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1072
 msgid "Conditions"
 msgstr "Condiciones"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1072
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1071
 msgid "Enable Logic"
 msgstr "Activar lógica"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1068
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1067
 msgid "Using conditional logic you can limit the pages where you want the snippet to be auto-inserted."
 msgstr "Utilizando lógica condicional puedes limitar las páginas en las que quieres que se inserte automáticamente el fragmento de código."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1056
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1055
 msgid "Tags: Use tags to make it easier to group similar snippets together. <br />Priority: A lower priority will result in the snippet being executed before others with a higher priority. <br />Note: Add a private note related to this snippet."
 msgstr "Etiquetas: Utiliza etiquetas para facilitar la agrupación de fragmentos similares. <br />Prioridad: Una prioridad más baja hará que el fragmento se ejecute antes que otros con una prioridad más alta. <br />Nota: Añade una nota privada relacionada con este fragmento."
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1054
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1053
 msgid "Basic info"
 msgstr "Información básica"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1047
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1046
 msgid "Note"
 msgstr "Nota"
 
 #: includes/admin/pages/class-wpcode-admin-page-code-snippets.php:416
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1046
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1045
 #: includes/admin/pages/class-wpcode-code-snippets-table.php:644
 #: includes/generator/class-wpcode-generator-hooks.php:1360
 msgid "Priority"
 msgstr "Prioridad"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1045
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1044
 msgid "Tag"
 msgstr "Etiqueta"
 
@@ -5940,7 +6096,7 @@ msgctxt "Copy to clipboard"
 msgid "Copy"
 msgstr "Copiar"
 
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:971
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:970
 msgid "Please save the snippet first"
 msgstr "Guarda primero el fragmento de código"
 
@@ -6070,6 +6226,10 @@ msgstr "Esto te permite desactivar toda la funcionalidad de Fragmentos de códig
 msgid "We encountered an error while trying to load the snippet data. Please try again."
 msgstr "Hemos encontrado un error mientras cargábamos los datos de los fragmentos de código. Por favor, inténtalo de nuevo."
 
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:375
+msgid "Snippet Library"
+msgstr "Biblioteca de fragmentos de código"
+
 #: includes/admin/pages/class-wpcode-admin-page-library.php:52
 msgid "Library"
 msgstr "Biblioteca"
@@ -6096,20 +6256,20 @@ msgstr "Guardar los cambios"
 msgid "Global Header and Footer"
 msgstr "Cabecera y pie de página globales"
 
-#: includes/admin/class-wpcode-metabox-snippets.php:58
+#: includes/admin/class-wpcode-metabox-snippets.php:57
 #: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:171
 #: includes/generator/class-wpcode-generator-script.php:192
 #: includes/lite/admin/class-wpcode-metabox-snippets-lite.php:36
 msgid "Footer"
 msgstr "Pie de página"
 
-#: includes/admin/class-wpcode-metabox-snippets.php:64
+#: includes/admin/class-wpcode-metabox-snippets.php:63
 #: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:169
 #: includes/lite/admin/class-wpcode-metabox-snippets-lite.php:49
 msgid "Body"
 msgstr "Cuerpo"
 
-#: includes/admin/class-wpcode-metabox-snippets.php:57
+#: includes/admin/class-wpcode-metabox-snippets.php:56
 #: includes/admin/pages/class-wpcode-admin-page-headers-footers.php:167
 #: includes/generator/class-wpcode-generator-script.php:193
 #: includes/lite/admin/class-wpcode-metabox-snippets-lite.php:23
@@ -6129,7 +6289,7 @@ msgid "Header & Footer"
 msgstr "Cabecera y pie"
 
 #: includes/admin/pages/class-wpcode-admin-page-generator.php:258
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1643
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1647
 #: includes/generator/class-wpcode-generator-type.php:212
 msgid "Remove Row"
 msgstr "Eliminar fila"
@@ -6140,13 +6300,13 @@ msgid "Copy Code"
 msgstr "Copiar código"
 
 #: includes/admin/pages/class-wpcode-admin-page-generator.php:223
-#: includes/admin/pages/class-wpcode-admin-page.php:1117
+#: includes/admin/pages/class-wpcode-admin-page.php:1118
 msgid "Use Snippet"
 msgstr "Usar fragmento"
 
 #: includes/admin/pages/class-wpcode-admin-page-generator.php:217
 #: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:510
-#: includes/admin/pages/class-wpcode-admin-page.php:1112
+#: includes/admin/pages/class-wpcode-admin-page.php:1113
 msgid "Code Preview"
 msgstr "Vista previa de código"
 
@@ -6175,7 +6335,7 @@ msgid "%s Generator"
 msgstr "Generador de %s"
 
 #: includes/admin/pages/class-wpcode-admin-page-generator.php:73
-#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1050
+#: includes/admin/pages/class-wpcode-admin-page-snippet-manager.php:1049
 msgid "Generator"
 msgstr "Generador"
 
@@ -6206,12 +6366,12 @@ msgid "Add New"
 msgstr "Añadir nuevo"
 
 #: includes/admin/pages/class-wpcode-admin-page-code-snippets.php:234
-#: includes/admin/pages/class-wpcode-admin-page.php:936
+#: includes/admin/pages/class-wpcode-admin-page.php:934
 msgid "All Snippets"
 msgstr "Todos los fragmentos"
 
 #: includes/admin/pages/class-wpcode-admin-page-code-snippets.php:216
-#: includes/admin/pages/class-wpcode-admin-page.php:936
+#: includes/admin/pages/class-wpcode-admin-page.php:934
 msgid "Search Snippets"
 msgstr "Búsqueda de fragmentos"
 
@@ -6399,9 +6559,9 @@ msgstr "Hace %1$s"
 msgid "View All %s Docs"
 msgstr "Ver todos los documentos de %s"
 
-#: includes/admin/class-wpcode-admin-page-loader.php:139
 #: includes/admin/class-wpcode-admin-page-loader.php:140
-#: includes/admin/class-wpcode-admin-page-loader.php:197
+#: includes/admin/class-wpcode-admin-page-loader.php:141
+#: includes/admin/class-wpcode-admin-page-loader.php:198
 #: includes/admin/pages/class-wpcode-admin-page-code-snippets.php:32
 #: includes/class-wpcode-admin-bar-info.php:226
 msgid "Code Snippets"
@@ -6479,7 +6639,7 @@ msgstr "Estos scripts se imprimirán debajo de la etiqueta de apertura %s."
 msgid "These scripts will be printed in the %s section."
 msgstr "Estos scripts se imprimirán en la sección %s."
 
-#: includes/admin/class-wpcode-admin-page-loader.php:205
+#: includes/admin/class-wpcode-admin-page-loader.php:206
 #: includes/admin/pages/class-wpcode-admin-page-settings.php:53
 #: includes/class-wpcode-admin-bar-info.php:408
 msgid "Settings"

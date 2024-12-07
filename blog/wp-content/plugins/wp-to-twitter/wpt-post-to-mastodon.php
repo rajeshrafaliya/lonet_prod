@@ -29,6 +29,12 @@ require_once plugin_dir_path( __FILE__ ) . 'classes/class-wpt-mastodon-api.php';
 function wpt_upload_mastodon_media( $connection, $auth, $attachment, $status, $id ) {
 	if ( $connection ) {
 		if ( $attachment ) {
+			$allowed = wpt_check_mime_type( $attachment, 'mastodon' );
+			if ( ! $allowed ) {
+				wpt_mail( 'Media upload mime type not accepted by Mastodon', get_post_mime_type( $attachment ), $id );
+
+				return $status;
+			}
 			$alt_text = get_post_meta( $attachment, '_wp_attachment_image_alt', true );
 			/**
 			 * Add alt attributes to uploaded images.
@@ -55,7 +61,7 @@ function wpt_upload_mastodon_media( $connection, $auth, $attachment, $status, $i
 			$media_id              = $response['id'];
 			$status['media_ids[]'] = $media_id;
 
-			wpt_mail( 'Media Uploaded', "$auth, $media_id, $attachment", $id );
+			wpt_mail( 'Media Uploaded (Mastodon)', "$auth, $media_id, $attachment", $id );
 		}
 	}
 
@@ -81,12 +87,13 @@ function wpt_send_post_to_mastodon( $connection, $auth, $id, $status ) {
 	 * @param {bool}     $staging_mode True to enable staging mode.
 	 * @param {int|bool} $auth Current author.
 	 * @param {int}      $id Post ID.
+	 * @param {string}   $service Service being put into staging.
 	 *
 	 * @return {bool}
 	 */
-	$staging_mode = apply_filters( 'wpt_staging_mode', false, $auth, $id );
+	$staging_mode = apply_filters( 'wpt_staging_mode', false, $auth, $id, 'mastodon' );
 	if ( ( defined( 'WPT_STAGING_MODE' ) && true === WPT_STAGING_MODE ) || $staging_mode ) {
-		// if in staging mode, we'll behave as if the Tweet succeeded, but not send it.
+		// if in staging mode, we'll behave as if the update succeeded, but not send it.
 		$connection = true;
 		$http_code  = 200;
 		$notice     = __( 'In Staging Mode:', 'wp-to-twitter' ) . ' ' . $status['text'];
@@ -143,6 +150,7 @@ function wpt_send_post_to_mastodon( $connection, $auth, $id, $status ) {
 		'http'      => $http_code,
 		'notice'    => $notice,
 		'status_id' => $status_id,
+		'service'   => 'mastodon',
 	);
 }
 

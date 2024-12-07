@@ -1,4 +1,37 @@
 (function ($) {
+	let post_this = document.querySelectorAll( 'input[name=_wpt_post_this]' );
+	let wrapper   = document.querySelector( '.wpt-options-metabox' );
+
+	post_this.forEach( (el) => { 
+		if ( el && el.checked && el.value === 'no' ) {
+			wrapper.style.display = 'none';
+		}
+		el.addEventListener( 'change', function() {
+			console.log( el.value );
+			if ( el.checked && el.value == 'yes' ) {
+				wrapper.style.display = 'block';
+			} else {
+				wrapper.style.display = 'none';
+			}
+		});
+	});
+
+	let add_image = document.querySelectorAll( 'input[name=_wpt_image]' );
+	let image_holder = document.querySelector( '.wpt_custom_image' );
+
+	add_image.forEach( (el) => { 
+		if ( el && el.checked && el.value === '1' ) {
+			image_holder.style.display = 'none';
+		}
+		el.addEventListener( 'change', function() {
+			console.log( el.value );
+			if ( el.checked && el.value == '0' ) {
+				image_holder.style.display = 'block';
+			} else {
+				image_holder.style.display = 'none';
+			}
+		});
+	});
 	$('#wpt_custom_tweet, #wpt_retweet_0, #wpt_retweet_1, #wpt_retweet_3').charCount({
 		allowed: wptSettings.allowed,
 		counterText: wptSettings.text
@@ -33,8 +66,8 @@
 	const templateTags = document.querySelectorAll( '#wp2t .inline-list button' );
 	let   custom       = document.getElementById( 'wpt_custom_tweet' );
 	let   template     = document.querySelector( '#wp2t .wpt-template code' );
-	let   customText   = custom.value;
-	let   templateText = template.innerText;
+	let   customText   = ( null !== custom ) ? custom.value : '';
+	let   templateText = ( null !== template ) ? template.innerText : '';
 	templateTags.forEach((el) => {
 		el.addEventListener( 'click', function(e) {
 			let pressed  = el.getAttribute( 'aria-pressed' );

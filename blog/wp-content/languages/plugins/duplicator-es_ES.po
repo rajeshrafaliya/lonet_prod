@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Duplicator &#8211; Migration &amp; Backup Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-03 10:50:14+0000\n"
+"PO-Revision-Date: 2024-10-04 06:47:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,15 +17,15 @@ msgstr "Registros de las copias de seguridad"
 
 #: views/parts/migration-almost-complete.php:31
 msgid "Go to: Duplicator > Tools > General > Information > Utils and click the \"Remove Installation Files\" button"
-msgstr "Ve a: Duplicator > Herramientas > General > Información > Utilidades y haz clic en el botón \"Eliminar archivos de instalación\"."
+msgstr "Ve a: Duplicator > Herramientas > General > Información > Utilidades y haz clic en el botón «Eliminar archivos de instalación»."
 
 #: views/packages/main/s2.scan3.php:560 views/settings/packages.php:254
 msgid "Backup Engine"
-msgstr "Motor de reservas"
+msgstr "Motor de copia de seguridad"
 
 #: views/packages/main/s2.scan3.php:74
 msgid "Skip Backup scan enabled"
-msgstr "Omitir escaneo de copia de seguridad activado"
+msgstr "Omitir exploración de copia de seguridad activado"
 
 #: views/packages/main/s2.scan3.php:50
 msgid "Backup Size"
@@ -37,7 +37,7 @@ msgstr "Cifrado de copias de seguridad de archivos"
 
 #: views/packages/main/s1.setup2.php:199
 msgid "Backup Only the Database"
-msgstr "Hacer copia de seguridad sólo de la base de datos"
+msgstr "Copia de seguridad solo de la base de datos"
 
 #: views/packages/main/packages.php:386
 msgid "Delete Backups?"
@@ -45,11 +45,11 @@ msgstr "¿Borrar copias de seguridad?"
 
 #: views/packages/main/packages.php:299
 msgid "Backup Details"
-msgstr "Datos de copia de seguridad"
+msgstr "Detalles de la copia de seguridad"
 
 #: views/packages/main/packages.php:260 views/packages/main/s3.build.php:150
 msgid "Building Backup"
-msgstr "Creando copia de seguridad"
+msgstr "Creación de copias de seguridad"
 
 #: views/packages/main/packages.php:253
 msgid "Backup created as daf file"
@@ -262,7 +262,7 @@ msgstr "No te pierdas nunca una actualización importante"
 
 #: src/Utils/ZipArchiveExtended.php:357
 msgid "ZipArchive PHP module is not installed/enabled. The current Backup cannot be opened."
-msgstr "El módulo PHP ZipArchive no está instalado/activado. No se puede abrir la copia de seguridad actual."
+msgstr "El módulo ZipArchive de PHP no está instalado/activado. No se puede abrir la copia de seguridad actual."
 
 #: src/Utils/Support/SupportToolkit.php:60
 msgid "Failed to create zip file"
@@ -430,9 +430,9 @@ msgid ""
 "                To get support and the advanced installer processing required for managed host support we encourage users to %1$supgrade to Duplicator Pro%2$s.\n"
 "                Pro has more sophisticated Backup and installer logic and accounts for odd configurations associated with managed hosts."
 msgstr ""
-"Es posible que se consiga instalar el paquete, pero puede requerir un esfuerzo manual personalizado.\n"
-"                Para obtener asistencia y el procesamiento avanzado del instalador necesario para la compatibilidad con hosts gestionados, animamos a los usuarios a %1$sactualizarse a Duplicator Pro%2$s.\n"
-"                Pro tiene una lógica de paquete e instalador más sofisticada y tiene en cuenta las configuraciones extrañas asociadas a los alojamientos gestionados."
+"Es posible que se consiga instalar la copia de seguridad, pero puede requerir un esfuerzo manual personalizado.\n"
+"                Para obtener asistencia y el procesamiento avanzado del instalador necesario para la compatibilidad con hosts gestionados, animamos a los usuarios a %1$sactualizar a Duplicator Pro%2$s.\n"
+"                Pro tiene una lógica de copia de seguridad e instalador más sofisticada y tiene en cuenta las configuraciones extrañas asociadas a los alojamientos gestionados."
 
 #: views/packages/main/s2.scan2.php:93
 msgid "<b>Due to these constraints Lite does not officially support the migration of managed hosts.</b> "
@@ -458,7 +458,7 @@ msgstr "[abrir todo]"
 #: views/packages/details/controller.php:29
 msgctxt "%1$s represents the Backup name"
 msgid "Backup Details &raquo; %1$s"
-msgstr "Detalles del paquete &raquo; %1$s"
+msgstr "Detalles de la copia de seguridad &raquo; %1$s"
 
 #: template/parts/filters/package_components.php:168
 msgid "media"
@@ -484,7 +484,7 @@ msgstr "Restaura rápidamente este sitio a un punto específico en el tiempo."
 #: template/mocks/import/import.php:26
 msgctxt "%1$s and %2$s are opening and closing span tags"
 msgid "Step %1$s1%2$s of 2: Upload Backup"
-msgstr "Paso %1$s1%2$s de 2: Cargar copia de seguridad"
+msgstr "Paso %1$s1%2$s de 2: Subir copia de seguridad"
 
 #: template/mail/email_summary.php:73
 msgid "Hi there!"
@@ -612,7 +612,7 @@ msgstr "Para más detalles, visita el enlace de las FAQ %1$s¿Qué archivos hay 
 #: views/packages/main/s3.build.php:419
 msgctxt "1: opening link, 2: closing link"
 msgid "Complete the Backup build and follow the %1$sQuick Start Two-Part Install Instructions%2$s"
-msgstr "Completa la construcción del paquete y sigue las %1$sInstrucciones de instalación rápida en dos partes%2$s"
+msgstr "Completa la construcción de la copia de seguridad y sigue las %1$sInstrucciones de instalación rápida en dos partes%2$s"
 
 #: views/packages/main/s2.scan3.php:581
 msgctxt "%1$s and %2$s represent opening and closing anchor tags"
@@ -632,7 +632,7 @@ msgstr "Consulta el enlace de las FAQ para ajustar los límites de tiempo de esp
 #: views/packages/details/detail.php:256
 msgctxt "%1$s and %2$s are opening and closing <a> tags"
 msgid "A copy of the database.sql and installer.php files can both be found inside of the archive.zip/daf file.  Download and extract the Backup file to get a copy of the installer which will be named 'installer-backup.php'. For details on how to extract a archive.daf file please see: %1$sHow to work with DAF files and the DupArchive extraction tool?%2$s"
-msgstr "Dentro del archivo «archive.zip/daf», se encuentra una copia de los archivos «database.sql» e «installer.php». Descarga y extrae el archivo para obtener una copia del instalador que se llamará «installer-backup.php». Para más detalles sobre cómo extraer un archivo «archive.daf», por favor, consulta: %1$s¿Cómo trabajar con archivos DAF y la herramienta de extracción DupArchive?%2$s"
+msgstr "Puedes encontrar una copia de los archivos database.sql e installer.php dentro del archivo archive.zip/daf.  Descarga y extrae el archivo de copia de seguridad para obtener una copia del instalador que se llamará 'installer-backup.php'. Para más detalles sobre cómo extraer un archivo archive.daf, consulta: %1$s¿Cómo trabajar con archivos DAF y la herramienta de extracción DupArchive?%2$s"
 
 #: views/packages/details/controller.php:53
 msgctxt "%1, %3 and %2, %4 are replaced with <a> and </a> respectively"
@@ -642,17 +642,17 @@ msgstr "Para obtener ayuda, visita la página %1$sFAQ%2$s y %3$srecursos%4$s."
 #: views/packages/details/controller.php:43
 msgctxt "%1 and %2 are replaced with <a> and </a> respectively"
 msgid "This Backup contains an error. Please review the %1$sBackup log%2$s for details."
-msgstr "Este paquete contiene un error. Por favor, revisa el %1$sregistro del paquete%2$s para más detalles."
+msgstr "Esta copia de seguridad contiene un error. Por favor, revisa el %1$sregistro de copias de seguridad%2$s para más detalles."
 
 #: template/admin_pages/settings/general/general.php:308
 msgctxt "1 and 2 are opening and closing <a> tags"
 msgid "AJAX error encountered when resetting Backups. Please see %1$sthis FAQ entry%2$s for possible resolutions."
-msgstr "Se ha producido un error AJAX al restablecer las copias de seguridad. Por favor, consulta %1$sesta entrada de las FAQ%2$s para posibles resoluciones."
+msgstr "Se ha producido un error AJAX al restablecer las copias de seguridad. Consulta %1$sesta entrada de las FAQ%2$s para conocer las posibles soluciones."
 
 #: src/Views/AdminNotices.php:426
 msgctxt "%1$s and %2$s are <a> tags"
 msgid "<strong>RECOMMENDATION:</strong> Add export capability to your role. See FAQ: %1$sWhy is the Duplicator/Packages menu missing from my admin menu?%2$s"
-msgstr "<strong>RECOMENDACIÓN:</strong> Añade la capacidad de exportación a tu función. Ver FAQ: %1$s¿Por qué falta el menú Duplicador/Paquetes en mi menú de administrador?%2$s"
+msgstr "<strong>RECOMENDACIÓN:</strong> Añade la capacidad de exportación a tu función. Ver FAQ: %1$s¿Por qué falta el menú Duplicator/Copias de seguridad en mi menú de administrador?%2$s"
 
 #: src/Utils/DuplicatorPhpVersionCheck.php:77
 msgid ""
@@ -717,7 +717,7 @@ msgstr "Aquí tienes un resumen rápido de tus copias de seguridad en los últim
 
 #: template/admin_pages/settings/general/usage_tracking_tooltip.php:90
 msgid "<b>Backups infos:</b> Information about the Backups created and the type of components included."
-msgstr "<b>Información sobre copias de seguridad:</b> Información sobre las copias de seguridad creados y el tipo de componentes incluidos."
+msgstr "<b>Información sobre copias de seguridad:</b> Información acerca de las copias de seguridad creadas y el tipo de componentes incluidos."
 
 #: template/admin_pages/settings/general/usage_tracking_tooltip.php:81
 msgid ""
@@ -725,7 +725,7 @@ msgid ""
 "            This is useful for us to understand the critical issues of Backup creation."
 msgstr ""
 "<b>Información del sitio:</b> Información general acerca del sitio, como la base de datos, el tamaño del archivo, el número de usuarios y los sitios en caso de que sea multisitio. \n"
-"            Esto nos resulta útil para comprender los problemas críticos a la hora de crear una copia de seguridad."
+"            Esto nos resulta útil para comprender los problemas críticos de la creación de copias de seguridad."
 
 #: template/admin_pages/settings/general/usage_tracking_tooltip.php:73
 msgid "<b>Plugins and Themes infos:</b> so we can figure out which ones can generate compatibility errors with Duplicator."
@@ -769,7 +769,7 @@ msgstr ""
 
 #: template/admin_pages/settings/general/usage_tracking_tooltip.php:20
 msgid "No information about storage or Backup's content are sent."
-msgstr "No se envía información acerca del almacenamiento ni del contenido de la copia de seguridad."
+msgstr "No se envía información acerca del almacenamiento o del contenido de la copia de seguridad."
 
 #: template/admin_pages/settings/general/usage_tracking_tooltip.php:19
 msgid "All information sent to the server is anonymous."
@@ -818,7 +818,7 @@ msgid ""
 "                                please help us by leaving a five star review on WordPress.org."
 msgstr ""
 "Has creado más de %d copias de seguridad con Duplicator. ¡Buen trabajo! Si tienes un minuto, \n"
-"                                ayúdanos dejando una valoración de cinco estrellas en WordPress.org."
+"                                ayúdanos dejando una reseña de cinco estrellas en WordPress.org."
 
 #: src/Utils/Email/EmailSummary.php:144
 msgid "week"
@@ -927,16 +927,16 @@ msgstr "¿Ya lo has comprado? ¡Simplemente introduce a continuación tu clave d
 #: views/packages/main/s2.scan3.php:671
 msgctxt "%1$s represents the memory limit value (e.g. 256MB)"
 msgid "If you want to build the Backup with mysqldump, increase the PHP <b>memory_limit</b> value in your php.ini file to at least %1$s."
-msgstr "Si quieres construir la copia de seguridad con mysqldump, aumenta el valor de PHP <b>memory_limit</b> en tu archivo php.ini a %1$s como mínimo."
+msgstr "Si quieres crear la copia de seguridad con mysqldump, aumenta el valor de PHP <b>memory_limit</b> en tu archivo php.ini hasta al menos %1$s."
 
 #: views/packages/main/s2.scan3.php:657
 msgctxt "%1$s and %2$s represent opening and closing anchor tags"
 msgid "Please change the setting SQL Mode to PHP Code. You can do that by opening %1$sDuplicator Pro > Settings > Backups.%2$s"
-msgstr "Por favor, cambia el ajuste Modo SQL a Código PHP. Puedes hacerlo abriendo %1$sDuplicator Pro > Configuración > Copias de seguridad.%2$s"
+msgstr "Cambia el ajuste Modo SQL por Código PHP. Puedes hacerlo abriendo %1$sDuplicator Pro > Ajustes > Copias de seguridad.%2$s"
 
 #: views/packages/main/s2.scan3.php:642
 msgid "The database size is larger than the PHP memory_limit value. This can lead into issues when building a Backup, during which the system can run out of memory. To fix this issue please consider doing one of the below mentioned recommendations."
-msgstr "El tamaño de la base de datos es mayor que el valor de PHP memory_limit. Esto puede provocar problemas al construir una copia de seguridad, durante los cuales el sistema puede quedarse sin memoria. Para solucionar este problema, considera la posibilidad de seguir alguna de las recomendaciones que se mencionan a continuación."
+msgstr "El tamaño de la base de datos es mayor que el valor de PHP memory_limit. Esto puede dar lugar a problemas al crear una copia de seguridad, durante los cuales el sistema puede quedarse sin memoria. Para corregir este problema, considera realizar una de las siguientes recomendaciones."
 
 #: views/packages/main/s2.scan3.php:639
 msgid "The database size exceeds the allowed mysqldump size limit."
@@ -945,7 +945,7 @@ msgstr "El tamaño de la base de datos supera el límite de tamaño permitido po
 #: views/packages/main/s2.scan3.php:625
 msgctxt "1$s and 2$s represent opening and closing anchor tags"
 msgid "If you encounter any issues with mysqldump please change the setting SQL Mode to PHP Code. You can do that by opening %1$sDuplicator Pro > Settings > Backups.%2$s"
-msgstr "Si tienes algún problema con mysqldump, cambia el ajuste Modo SQL a Código PHP. Puedes hacerlo abriendo %1$sDuplicator Pro > Ajustes > Copias de seguridad.%2$s"
+msgstr "Si tienes alguna incidencia con mysqldump, cambia el ajuste Modo SQL a Código PHP. Puedes hacerlo abriendo %1$sDuplicator Pro > Ajustes > Copias de seguridad.%2$s"
 
 #: views/packages/main/s2.scan3.php:621
 msgid "The database size is within the allowed mysqldump size limit."
@@ -982,7 +982,7 @@ msgstr "inicio rápido de solo base de datos"
 
 #: template/parts/filters/package_components.php:216
 msgid "<b>Install Time:</b><br> When installing a database only Backup please visit the "
-msgstr "<b>Tiempo de instalación:</b><br> Cuando instales una copia de seguridad solo de base de datos, visita el "
+msgstr "<b>Tiempo de instalación:</b><br> Si instalas solo una copia de seguridad de la base de datos, visita la página "
 
 #: template/parts/filters/package_components.php:204
 msgid "For example, if you have WordPress 5.6 on this site and you copy this site's database to a host that has WordPress 5.8 files then the source code of the files  will not be in sync with the database causing possible errors. This can also be true of plugins and themes.  When moving only the database be sure to know the database will be compatible with ALL source code files. Please use this advanced feature with caution!"
@@ -1018,7 +1018,7 @@ msgstr "Plugins"
 
 #: template/parts/filters/package_components.php:51
 msgid "Backup Components (Pro feature)"
-msgstr "Componentes de la copia de seguridad (función Pro)"
+msgstr "Componentes de copia de seguridad (característica Pro)"
 
 #: template/parts/filters/package_components.php:49
 msgid "Components"
@@ -1026,15 +1026,15 @@ msgstr "Componentes"
 
 #: template/parts/filters/package_components.php:41
 msgid "File extension filters allow you to exclude files with certain file extensions from the Backup e.g. zip;rar;pdf etc. Enter the file extensions you want to exclude from the Backup as a semicolon (;) seperated list."
-msgstr "Los filtros de extensión de archivos te permiten excluir archivos con determinadas extensiones de archivo de la copia de seguridad. Por ejemplo, zip;rar;pdf, etc. Introduce las extensiones de archivo que deseas excluir del paquete como una lista de valores separados por punto y coma (;)."
+msgstr "Los filtros de extensión de archivos te permiten excluir archivos con determinadas extensiones de archivo de la copia de seguridad. Por ejemplo, zip;rar;pdf, etc. Introduce las extensiones de archivo que deseas excluir de la copia de seguridad como una lista de valores separados por punto y coma (;)."
 
 #: template/parts/filters/package_components.php:39
 msgid "File filters allow you to exclude files and folders from the Backup. To enable path and extension filters check the checkbox. Enter the full path of the files and folders you want to exclude from the Backup as a semicolon (;) seperated list."
-msgstr "Los filtros de archivo te permiten excluir archivos y carpetas de la copia de seguridad. Para habilitar los filtros de ruta y de extensión marca la casilla de verificación. Introduce la ruta completa de los archivos y carpetas que deseas excluir de la copia de seguridad como una lista de valores separados por punto y coma (;)."
+msgstr "Los filtros de archivos te permiten excluir archivos y carpetas de la copia de seguridad. Para activar los filtros de ruta y extensión, marca / comprueba la casilla de verificación. Introduce la ruta completa de los archivos y carpetas que quieras excluir de la copia de seguridad como una lista separada por punto y coma (;)."
 
 #: template/parts/filters/package_components.php:28
 msgid "Backup components allow you to include/exclude differents part of your WordPress installation in the Backup.</br></br><b>Database</b>: Include the database in the Backup.</br><b>Plugins</b>: Include the plugins in the Backup. With the 'active only' option enabled, only active plugins will be included in the Backup.</br><b>Themes</b>: Include the themes in the Backup. With the 'active only' option enabled, only active themes will be included in the Backup.</br><b>Media</b>: Include the 'uploads' folder.</br><b>Other</b>: Include non-WordPress files and folders in the root directory.</br>"
-msgstr "Los componentes de la copia de seguridad te permiten incluir/excluir diferentes partes de tu instalación de WordPress en la copia de seguridad.</br></br><b>Base de datos</b>: Incluir la base de datos en la copia de seguridad.</br><b>Plugins</b>: Incluir los plugins en la copia de seguridad. Con la opción «sólo activos» activada, sólo los plugins activos serán incluidos en la copia de seguridad.</br><b>Temas</b>: Incluir los temas en la copia de seguridad. Con la opción «sólo activos» activada, sólo los temas activos serán incluidos en la copia de seguridad.</br><b>Medios</b>: Incluir la carpeta de «subidas».</br><b>Otros</b>: Incluir archivos y carpetas no pertenecientes a WordPress en el directorio raíz.</br>"
+msgstr "Los componentes de copia de seguridad te permiten incluir/excluir distintas partes de tu instalación de WordPress en la copia de seguridad.</br></br><b>Base de datos</b>: Incluye la base de datos en la copia de seguridad.</br><b>Plugins</b>: Incluye los plugins en la copia de seguridad. Con la opción «solo activos» activada, solo los plugins activos se incluirán en la copia de seguridad.</br><b>Temas</b>: Incluye los temas en la copia de seguridad. Con la opción «solo activos» activada, solo se incluirán en la copia de seguridad los temas activos.</br><b>Medios</b>: Incluye la carpeta «uploads».</br><b>Otros</b>: Incluir archivos y carpetas que no sean de WordPress en el directorio raíz.</br>"
 
 #: src/Libs/OneClickUpgrade/ConnectSkin.php:35
 msgid "There was an error installing Duplicator Pro. Please try again."
@@ -1078,7 +1078,7 @@ msgstr " - Gestionar Ajustes "
 
 #: template/mocks/settings/access/capabilities.php:78
 msgid " - - Backup Import "
-msgstr " - - Copia de seguridad Importar "
+msgstr " - - Copias de seguridad Importar "
 
 #: template/mocks/settings/access/capabilities.php:68
 msgid " - Restore Backup "
@@ -1110,7 +1110,7 @@ msgstr "No es posible autoeliminarse la capacidad de gestionar los ajustes."
 
 #: template/mocks/settings/access/capabilities.php:21
 msgid "Some capabilities depend on others so If you select for example storage capability automatically the Backup read and Backup edit capabilities are assigned"
-msgstr "Algunas capacidades dependen de otras, de modo que si seleccionas, por ejemplo, la capacidad de almacenamiento, se asignarán automáticamente las capacidades de lectura y edición de copias de seguridad."
+msgstr "Algunas capacidades dependen de otras, así que si seleccionas, por ejemplo, la capacidad de almacenamiento, automáticamente se asignan las capacidades de lectura de copia de seguridad y edición de copia de seguridad."
 
 #: template/mocks/settings/access/capabilities.php:20
 msgid "By default, all permissions are provided only to administrator users."
@@ -1272,7 +1272,7 @@ msgstr "Última copia de seguridad:"
 
 #: template/parts/DashboardWidget/package-create-section.php:23
 msgid "This will create a new Backup. If a Backup is currently running then this button will be disabled."
-msgstr "Esto creará un nueva copia de seguridad. Si hay una copia de seguridad en ejecución, este botón estará desactivado."
+msgstr "Esto creará una nueva copia de seguridad. Si se está ejecutando una copia de seguridad, este botón estará desactivado."
 
 #: template/mocks/transfer/transfer.php:231
 msgid "Remote storages are not available in Duplicator Lite!"
@@ -1292,7 +1292,7 @@ msgstr "¡Personaliza fácilmente tus copias de seguridad con plantillas!"
 
 #: template/mocks/templates/content-popup.php:22
 msgid "Instead of manually configuring the same themes and plugins over and over, just configure one site and bundle it into a Duplicator Backup. Install the Backup to create a pre-configured site on as many locations as you want!"
-msgstr "En lugar de configurar manualmente los mismos temas y plugins una y otra vez, sólo tienes que configurar un sitio y agruparlo en una copia de seguridad de Duplicator. ¡Instala la copia de seguridad para crear un sitio preconfigurado en tantas ubicaciones como quieras!"
+msgstr "En lugar de configurar manualmente los mismos temas y plugins una y otra vez, sólo tienes que configurar un sitio y empaquetarlo en una copia de seguridad de Duplicator. Instala la copia de seguridad para crear un sitio preconfigurado en tantas ubicaciones como quieras."
 
 #: template/mocks/templates/content-popup.php:14
 msgid "If you install the same theme, plugins or content on all your WordPress sites then Duplicator can save you a lot of time."
@@ -1348,7 +1348,7 @@ msgstr "¡Sobrescribe un sitio WordPress con la función importar arrastrando y 
 
 #: template/mocks/import/content-popup.php:18
 msgid "In addition to the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">classic installer method</a> on an empty site, Duplicator Pro now supports Drag and Drop migrations and site restores! Simply drag the bundled site Backup to the site you wish to overwrite."
-msgstr "Además del <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">método clásico de instalación</a> en un sitio vacío, ¡Duplicator Pro ahora admite migraciones de arrastrar y soltar y restauraciones de sitios! Simplemente arrastra la copia de seguridad del sitio hasta el sitio que deseas sobrescribir."
+msgstr "Además del <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">método clásico de instalación</a> en un sitio vacío, ¡Duplicator Pro ahora es compatible con arrastrar y soltar migraciones y restauraciones de sitios! Simplemente arrastra la copia de seguridad del sitio incluida hasta el sitio que deseas sobrescribir."
 
 #: template/admin_pages/welcome/upgrade-cta.php:36
 #: template/mocks/storage/popup.php:37 template/mocks/storage/storage.php:68
@@ -1406,12 +1406,12 @@ msgstr "Utiliza filtros de archivos y bases de datos para elegir exactamente lo 
 
 #: template/admin_pages/welcome/features.php:64
 msgid "Direct Backup import from source server or cloud storage using URL. No need to download the Backup to your desktop machine first."
-msgstr "Importación directa de copias de seguridad desde el servidor de origen o almacenamiento en la nube mediante URL. No es necesario descargar primero la copia de seguridad a tu ordenador."
+msgstr "Importación directa de copias de seguridad desde el servidor de origen o almacenamiento en la nube mediante URL. No necesitas descargar primero la copia de seguridad a tu ordenador."
 
 #: template/admin_pages/welcome/features.php:56
 #: views/packages/main/s1.setup2.php:353
 msgid "Protect and secure the Backup file with industry-standard AES-256 encryption."
-msgstr "Protege y asegura el archivo de copia de seguridad comprimido con la encriptación AES-256 estándar del sector."
+msgstr "Protege y asegura el archivo de copia de seguridad con el cifrado AES-256 estándar del sector."
 
 #: template/admin_pages/welcome/features.php:47
 #: template/mocks/recovery/content-popup.php:14
@@ -3166,7 +3166,7 @@ msgstr "Añade una ruta personalizada si la ruta a mysqldump no se detecta corre
 
 #: template/admin_pages/settings/general/general.php:366
 msgid "Backups successfully reset"
-msgstr "Paquetes restablecidos correctamente"
+msgstr "Copias de seguridad restablecidos correctamente"
 
 #: assets/js/duplicator/dup.util.php:97
 #: template/admin_pages/settings/general/general.php:323
@@ -3743,7 +3743,7 @@ msgstr "¿Cómo instalo una copia de seguridad?"
 
 #: views/packages/main/packages.php:411
 msgid "How do I create a Backup"
-msgstr "¿Cómo creo una copia de seguridad?"
+msgstr "Cómo crear una copia de seguridad"
 
 #: views/packages/main/packages.php:408
 msgid "Common Questions:"
@@ -4547,6 +4547,10 @@ msgstr "El servidor web no permite devolver los archivos con extensión .log"
 msgid "Reasons for log file not showing"
 msgstr "Motivos por los que no se muestra el archivo de registro"
 
+#: views/tools/diagnostics/logging.php:169
+msgid "Try to create a Backup, since no log files were found in the snapshots directory with the extension *.log"
+msgstr "Intenta crear una copia de seguridad, ya que no se han encontrado archivos de registro con la extensión *.log en el directorio de instantáneas"
+
 #: views/tools/diagnostics/logging.php:168
 msgid "Log file not found or unreadable"
 msgstr "Archivo de registro no encontrado o ilegible"
@@ -4648,6 +4652,10 @@ msgstr "Versión de Duplicator"
 #: views/tools/diagnostics/inc.settings.php:13
 msgid "Server Settings"
 msgstr "Ajustes del servidor"
+
+#: views/tools/diagnostics/inc.data.php:84
+msgid "This process will remove all build cache files. Be sure no backups are currently building or else they will be cancelled."
+msgstr "Este proceso eliminará todos los archivos de la caché de compilación. Asegúrate de que no se están creando copias de seguridad en este momento o de lo contrario se cancelarán."
 
 #: views/tools/diagnostics/inc.data.php:49
 msgid "Removes all build data from:"
@@ -5072,7 +5080,7 @@ msgstr "BASE DE DATOS"
 
 #: views/packages/main/packages.php:387
 msgid "Are you sure you want to delete the selected Backup(s)?"
-msgstr "¿Estás seguro de querer borrar la copia o copias de seguridad seleccionadas?"
+msgstr "¿Estás seguro de que quieres borrar las copias de seguridad seleccionadas?"
 
 #: views/packages/details/detail.php:245
 msgid "The following links contain sensitive data. Share with caution!"

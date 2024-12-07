@@ -1,6 +1,5 @@
 #wp2t .jtw {
     position: relative;
-	padding-bottom: 1rem;
 }
 
 #wp2t .jtw textarea {
@@ -8,13 +7,12 @@
 	width: 100%;
 }
 
+#wp2t .wpt-template {
+	margin: 6px 0;
+}
+
 #wp2t .counter {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    font-size: 1.1em;
     font-weight: 600;
-    color: #666;
 }
 
 #wpt_custom_retweets .jtw2 label {
@@ -27,18 +25,38 @@
 	border: 1px solid #eee; 
 }
 
+.wpt_custom_image.field-holder {
+	position: relative;
+}
+
+#wpt_selected_image {
+	height: 150px;
+	background: rgba( 0,0,0,.04 );
+	border: 2px dashed #ccc;
+}
+
 #wpt_selected_image img {
-	width: 100%;
-	max-width: 100%;
-	height: auto;
+	max-height: 150px;
+	width: auto;
+}
+
+#wpt_custom_image_select {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
 }
 
 .edit-post-meta-boxes-area #wp2t.postbox > .inside {
 	padding: 0 12px 12px;
 }
 
-.wp-to-twitter .panel-toggle {
-	margin-bottom: 0;
+.wp-to-twitter .history ul li {
+	margin-bottom: 1rem;
+}
+
+.wp-to-twitter .history ul li em {
+	margin-top: .5rem;
+	display: block;
 }
 
 #wpt_custom_retweets fieldset {
@@ -91,9 +109,9 @@
     padding: 0;
 }
 
-#wp2t .wpt_auth_users select {
-	width: calc( 100% - 24px );
-	max-height: 21em;
+#wp2t .wpt_auth_users ul {
+	max-height: 12em;
+	overflow-y: scroll;
 }
 
 .panel-toggle a {
@@ -119,16 +137,19 @@
 	line-height: 1.4;
 }
 
-.wpt-options {
-	column-count: 3;
+.wpt-options .wptab {
+	display: grid;
+	grid-template-columns: repeat( 3, 1fr );
+	gap: 12px;
 }
 
-.free .wpt-options {
-	column-count: 2;
+.free .wpt-options .wptab {
+	grid-template-columns: repeat( 2, 1fr );
+
 }
 
-#side-sortables .wpt-options {
-	column-count: 1;
+#side-sortables .wpt-options .wptab {
+	grid-template-columns: repeat( 1, 1fr );
 }
 
 .wpt-debug-details {
@@ -142,6 +163,13 @@
 	white-space: normal;
 	height: auto;
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#wp2t-debug .wpt-debug-log button[aria-expanded=true] .dashicons-plus::before {
+	content: "\f460";
 }
 
 .wpt-player-card-settings {
@@ -190,6 +218,7 @@ button.time div {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2px;
+	margin: 0;
 }
 
 .wptab .inline-list li {
@@ -238,27 +267,35 @@ button.time div {
 }
 
 .toggle-btn-group {
-	margin: .5em auto .5em !important;
+	margin: .5em 0 !important;
 	width: auto;
+	max-width: 20em;
 }
 
 .wptab .toggle-btn-group {
 	margin: .25em -5px .25em;
+	max-width: 100%;
 }
 
-.toggle-btn-group:after {
+.wpt-flex {
+	display: flex;
+	align-items: end;
+	gap: 16px;
+	flex-wrap: wrap;
+}
+
+.toggle-btn-group::after {
     content: "";
     display: table;
     clear: both;
 }
 
 .toggle-btn-group label {
-    padding: .25em 0;
+    padding: .5em 0;
     float: left;
     text-align: center;
     cursor: pointer;
     background-color: #f3f3f3;
-	display: inline-block;
 	width: 50%;
     text-decoration: underline;	
 	color: #6e6e6e;
@@ -285,6 +322,7 @@ button.time div {
 	vertical-align: bottom;
 }
 
+.toggle-btn-group:has(input:focus),
 .toggle-btn-group label:hover,
 .toggle-btn-group label:focus {
     background-color: #ddd;
